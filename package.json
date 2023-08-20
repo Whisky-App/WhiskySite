@@ -1,0 +1,18 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/partytown": "^1.2.3",
+    "@astrojs/vue": "^2.2.1",
+    "astro": "^2.10.12",
+    "vue": "^3.3.4"
+  }
+}
