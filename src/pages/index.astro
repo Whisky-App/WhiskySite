@@ -4,8 +4,14 @@ import Layout from '../layouts/layout.astro';
 
 <Layout title="Whisky">
 	<main>
-		<div class="h-screen flex flex-col items-center justify-center">
-			<h1 class="text-8xl font-extrabold py-5 text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-red-500">Join the Mac gaming revolution.</h1>
+		<div class="h-[100vh] flex flex-col items-center justify-center">
+			<div class="flex items-center px-20">
+				<div>
+					<h1 class="text-8xl font-extrabold py-5 text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-red-500">Join the Mac gaming revolution.</h1>
+					<p class="text-white tracking-wide text-xl">Experience the latest titles effortlessly with Whisky.</p>
+				</div>
+				<img class="w-[20vw]" src="./icon.png"/>
+			</div>
 			<a href="https://github.com/Whisky-App/Whisky/releases">
 				<div class="bg-amber-500 px-4 py-2 rounded-3xl transition duration-300 hover:ease-in-out hover:bg-gradient-to-br from-amber-500 to-red-500 hover:drop-shadow-xl hover:scale-105">
 					<p class="text-black text-lg font-bold">Download Latest</p>
