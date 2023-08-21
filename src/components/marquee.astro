@@ -1,0 +1,114 @@
+---
+---
+
+<div class="py-30">
+    <div class="overflow-hidden inline mask">
+        <div class="marquee w-[145vw]">
+            <ul class="marquee-content text-6xl font-extrabold">
+                <li>Baldur's Gate 3</li>
+                <li>Cyberpunk 2077</li>
+                <li>Elden Ring</li>
+                <li>Diablo IV</li>
+                <li>Grand Theft Auto VI</li>
+            </ul>
+            <!-- Mirrors the content above -->
+            <ul class="marquee-content text-6xl font-extrabold" aria-hidden="true">
+                <li>Baldur's Gate 3</li>
+                <li>Cyberpunk 2077</li>
+                <li>Elden Ring</li>
+                <li>Diablo IV</li>
+                <li>Grand Theft Auto VI</li>
+            </ul>
+        </div>
+        <div class="marquee w-[210vw]">
+            <ul class="marquee-content reverse text-6xl font-extrabold">
+                <li>Hogwarts Legacy</li>
+                <li>God of War</li>
+                <li>Elden Ring</li>
+                <li>Diablo II: Resurrected</li>
+                <li>Spider-Man Remastered</li>
+                <li>Horizon Zero Dawn</li>
+            </ul>
+            <!-- Mirrors the content above -->
+            <ul class="marquee-content reverse text-6xl font-extrabold" aria-hidden="true">
+                <li>Hogwarts Legacy</li>
+                <li>God of War</li>
+                <li>Elden Ring</li>
+                <li>Diablo II: Resurrected</li>
+                <li>Spider-Man Remastered</li>
+                <li>Horizon Zero Dawn</li>
+            </ul>
+        </div>
+    </div>
+    <div class="flex items-center justify-center">
+        <p class="text-black dark:text-white py-5 tracking-wide text-xl">and the list is always growing...</p>
+    </div>
+</div>
+
+<style>
+    .mask {
+        mask-image: linear-gradient(
+            to right,
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 1) 20%,
+            hsl(0 0% 0% / 1) 80%,
+            hsl(0 0% 0% / 0)
+        );
+    }
+
+    .marquee {
+        display: flex;
+        user-select: none;
+    }
+
+    .marquee-content {
+        display: flex;
+        justify-content: space-around;
+        min-width: 100%;
+        animation: scroll 60s linear infinite;
+        animation-delay: 0;
+        animation-play-state: running;
+    }
+
+    .marquee-content > * {
+        flex: 0 0 auto;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    .marquee-content > *:hover {
+        flex: 0 0 auto;
+        text-align: center;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 300ms;
+        --un-gradient-shape: to right;
+        --un-gradient: var(--un-gradient-shape), var(--un-gradient-stops);
+        background-image: linear-gradient(var(--un-gradient));
+        --un-gradient-from-position: 0%;
+        --un-gradient-from: rgba(245, 158, 11, var(--un-from-opacity, 1))
+        var(--un-gradient-from-position);
+        --un-gradient-to-position: 100%;
+        --un-gradient-to: rgba(245, 158, 11, 0) var(--un-gradient-to-position);
+        --un-gradient-stops: var(--un-gradient-from), var(--un-gradient-to);
+        --un-gradient-to-position: 100%;
+        --un-gradient-to: rgba(239, 68, 68, var(--un-to-opacity, 1))
+        var(--un-gradient-to-position);
+    }
+
+    .reverse {
+        animation-direction: reverse;
+    }
+
+    @keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+</style>
