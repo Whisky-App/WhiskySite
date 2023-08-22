@@ -14,21 +14,35 @@
     const buttons = document.querySelectorAll("button.theme");
     const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 
-    darkThemeMq.addEventListener('change', (e) => {
-        if (e.matches)
-        {
+    function updateTheme(dark) {
+        if (dark) {
             document.documentElement.classList.add("dark");
         } else {
             document.documentElement.classList.remove("dark");
+        }
+    }
+
+    if (darkThemeMq.matches) {
+        updateTheme(true);
+    } else {
+        updateTheme(false);
+    }
+
+    darkThemeMq.addEventListener('change', (e) => {
+        if (e.matches)
+        {
+            updateTheme(true)
+        } else {
+            updateTheme(false)
         }
     })
 
     buttons.forEach((button) => {
         button.addEventListener('click', () => {
             if (document.documentElement.classList.contains("dark")) {
-                document.documentElement.classList.remove("dark");
+                updateTheme(true)
             } else {
-                document.documentElement.classList.add("dark");
+                updateTheme(false)
             }
         });
     });
