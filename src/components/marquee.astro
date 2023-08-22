@@ -58,6 +58,12 @@
         animation-play-state: running;
     }
 
+    @media (prefers-reduced-motion: reduce) {
+        .marquee-content {
+            animation-play-state: paused;
+        }
+    }
+
     .marquee-content > * {
         flex: 0 0 auto;
         text-align: center;
