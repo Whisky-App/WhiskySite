@@ -1,2 +1,35 @@
----
----
+<div class="absolute w-100% flex items-center gap-5 font-bold text-2xl p-5 text-gray-500">
+    <!--
+    <a>Home</a>
+    <a>Changelog</a>
+     -->
+    <div class="flex-grow"/>
+    <a href="https://discord.gg/CsqAfs9CnM" aria-label="Join Whisky's Discord" target="_blank" rel="noreferrer noopener" class="fa-brands fa-discord" />
+    <a href="https://github.com/Whisky-App/Whisky" aria-label="Go to Whisky's GitHub" target="_blank" rel="noreferrer noopener" class="fa-brands fa-github" />
+    <button class="theme hidden dark:inline fa-solid fa-sun"></button>
+    <button class="theme inline dark:hidden fa-solid fa-moon"></button>
+</div>
+
+<script lang="ts">
+    const buttons = document.querySelectorAll("button.theme");
+    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+
+    darkThemeMq.addEventListener('change', (e) => {
+        if (e.matches)
+        {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
+    })
+
+    buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+            if (document.documentElement.classList.contains("dark")) {
+                document.documentElement.classList.remove("dark");
+            } else {
+                document.documentElement.classList.add("dark");
+            }
+        });
+    });
+</script>
