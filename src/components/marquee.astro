@@ -1,10 +1,7 @@
----
----
-
 <div class="py-30">
-    <div class="overflow-hidden inline mask">
-        <div class="marquee w-[145vw]">
-            <ul class="marquee-content text-6xl font-extrabold">
+    <div class="mask">
+        <div class="flex gap-4">
+            <ul class="flex text-6xl marquee-content gap-4 font-extrabold whitespace-nowrap text-center">
                 <li>Baldur's Gate 3</li>
                 <li>Cyberpunk 2077</li>
                 <li>Elden Ring</li>
@@ -12,7 +9,7 @@
                 <li>Grand Theft Auto V</li>
             </ul>
             <!-- Mirrors the content above -->
-            <ul class="marquee-content text-6xl font-extrabold" aria-hidden="true">
+            <ul class="flex text-6xl marquee-content gap-4 font-extrabold whitespace-nowrap text-center" aria-hidden="true">
                 <li>Baldur's Gate 3</li>
                 <li>Cyberpunk 2077</li>
                 <li>Elden Ring</li>
@@ -20,20 +17,18 @@
                 <li>Grand Theft Auto V</li>
             </ul>
         </div>
-        <div class="marquee w-[210vw]">
-            <ul class="marquee-content reverse text-6xl font-extrabold">
+        <div class="flex gap-4">
+            <ul class="flex reverse text-6xl marquee-content gap-4 font-extrabold whitespace-nowrap text-center">
                 <li>Hogwarts Legacy</li>
                 <li>God of War</li>
-                <li>Elden Ring</li>
                 <li>Diablo II: Resurrected</li>
                 <li>Spider-Man Remastered</li>
                 <li>Horizon Zero Dawn</li>
             </ul>
             <!-- Mirrors the content above -->
-            <ul class="marquee-content reverse text-6xl font-extrabold" aria-hidden="true">
+            <ul class="flex reverse text-6xl marquee-content gap-4 font-extrabold whitespace-nowrap text-center" aria-hidden="true">
                 <li>Hogwarts Legacy</li>
                 <li>God of War</li>
-                <li>Elden Ring</li>
                 <li>Diablo II: Resurrected</li>
                 <li>Spider-Man Remastered</li>
                 <li>Horizon Zero Dawn</li>
@@ -47,6 +42,7 @@
 
 <style>
     .mask {
+        overflow: hidden;
         mask-image: linear-gradient(
             to right,
             hsl(0 0% 0% / 0),
@@ -56,15 +52,7 @@
         );
     }
 
-    .marquee {
-        display: flex;
-        user-select: none;
-    }
-
     .marquee-content {
-        display: flex;
-        justify-content: space-around;
-        min-width: 100%;
         animation: scroll 60s linear infinite;
         animation-delay: 0;
         animation-play-state: running;
@@ -77,8 +65,6 @@
     }
 
     .marquee-content > *:hover {
-        flex: 0 0 auto;
-        text-align: center;
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
