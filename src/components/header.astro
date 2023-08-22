@@ -40,9 +40,9 @@
     buttons.forEach((button) => {
         button.addEventListener('click', () => {
             if (document.documentElement.classList.contains("dark")) {
-                updateTheme(true)
-            } else {
                 updateTheme(false)
+            } else {
+                updateTheme(true)
             }
         });
     });
