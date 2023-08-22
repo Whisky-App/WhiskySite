@@ -3,7 +3,7 @@ Disallow: /capture.webp
 Disallow: /design.webp
 Disallow: /download.webp
 Disallow: /favion.png
-Disallow: /icon.png
+Disallow: /icon.webp
 Disallow: /integration.webp
 Disallow: /setup.webp
 Disallow: /square-icon.png
