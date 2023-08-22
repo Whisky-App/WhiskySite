@@ -6,11 +6,11 @@ import BentoCard from "./bento-card.astro";
 <div class="bg-white dark:bg-black">
     <div class="p-20 gap-5 flex flex-col lg:flex-row text-black dark:text-white">
         <div class="flex flex-col flex-[40%] gap-5">
-            <BentoCard title="No-terminal setup." description="No terminal experience? No problem. Whisky makes setup hands-off and easy to follow." image="./setup.png" />
-            <BentoCard title="Pre-built tools." description="Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes." image="./download.png" />
+            <BentoCard title="No-terminal setup." description="No terminal experience? No problem. Whisky makes setup hands-off and easy to follow." image="./setup.png" alt="Setup Wizard" />
+            <BentoCard title="Pre-built tools." description="Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes." image="./download.png" alt="Wine Downloader" />
         </div>
         <div class="flex flex-col flex-[60%] gap-5">
-            <BentoCard title="Familiar design." description="Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia." image="./design.png" row={true} reverse={true}>
+            <BentoCard title="Familiar design." description="Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia." image="./design.png" alt="Bottle Config" row={true} reverse={true}>
                 <ul class="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 transition duration-300 group-hover:ease-in-out group-hover:text-black dark:group-hover:text-white py-5 [&>*]:py-2">
                     <li>Native UI. Native speeds. No Electron slowdown.</li>
                     <li>Localised in 17 different languges.</li>
@@ -19,8 +19,8 @@ import BentoCard from "./bento-card.astro";
                 </ul>
             </BentoCard>
             <div class="flex flex-row gap-5 flex flex-[50%]">
-                <BentoCard title="macOS integration." description="Drag-n-drop? Terminal integration? Native logging? We got it." image="./integration.png" reverse={true} />
-                <BentoCard title="Debugging made easy." description="Connect up with Xcode and make GPU captures without all the faff." image="./capture.png" />
+                <BentoCard title="macOS integration." description="Drag-n-drop? Terminal integration? Native logging? We got it." image="./integration.png" alt="Drag-n-drop GPTK Installer" reverse={true} />
+                <BentoCard title="Debugging made easy." description="Connect up with Xcode and make GPU captures without all the faff." image="./capture.png" alt="Xcode GPU Capture" />
             </div>
         </div>
     </div>
