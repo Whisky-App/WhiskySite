@@ -11,7 +11,7 @@ interface Props {
 const { title, description, image, alt, reverse = false, row = false } = Astro.props;
 ---
 
-<div class=`bg-gray-200 dark:bg-gray-800 p-5 gap-5 rounded-xl transition duration-300 group hover:ease-in-out hover:scale-102 hover:bg-gradient-to-br from-gray-200/10 to-transparent flex ${ "flex-" + (row ? "row" : "col") + (reverse ?  "-reverse" : "")} flex-grow`>
+<div class=`bg-gray-200 dark:bg-gray-800 p-5 gap-5 rounded-xl transition duration-300 group hover:ease-in-out hover:scale-102 hover:bg-gradient-to-br from-gray-200/10 to-transparent flex flex-col${(reverse ?  "-reverse" : "")} ${ "sm:flex-" + (row ? "row" : "col") + (reverse ?  "-reverse" : "")} flex-grow`>
     <div class="flex flex-[60%] items-center justify-center">
         <img class="max-h-[13rem] h-auto w-auto block" src={image} alt={alt} />
     </div>
@@ -23,4 +23,4 @@ const { title, description, image, alt, reverse = false, row = false } = Astro.p
 </div>
 
 <!-- Ensure that all of these classes are defined -->
-<div class="flex-row flex-col flex-row-reverse flex-col-reverse hidden" />
+<div class="flex-row flex-col flex-row-reverse flex-col-reverse sm:flex-row sm:flex-col sm:flex-row-reverse sm:flex-col-reverse hidden" />
