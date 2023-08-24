@@ -1,5 +1,5 @@
 type DefaultLangCode = "en"
-type SupportedLangCode = string
+type SupportedLangCode = "fr"
 type LangCode = DefaultLangCode | SupportedLangCode
 type RouteUri = | "/" 
 type RouteParams = {"/": undefined; }
