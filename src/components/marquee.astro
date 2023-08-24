@@ -1,3 +1,7 @@
+---
+import { t } from "astro-i18n";
+---
+
 <div class="py-30 max-w-[1920px] mx-auto">
     <div class="mask">
         <div class="flex gap-4">
@@ -36,7 +40,7 @@
         </div>
     </div>
     <div class="flex items-center justify-center">
-        <p class="text-black dark:text-white py-5 tracking-wide text-sm md:text-xl">and the list is always growing...</p>
+        <p class="text-black dark:text-white py-5 tracking-wide text-sm md:text-xl">{ t("marquee.growing") }</p>
     </div>
 </div>
 

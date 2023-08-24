@@ -1,6 +1,8 @@
 ---
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
+import { astroI18n } from 'astro-i18n';
+
 export interface Props {
 	title: string;
 }
@@ -9,7 +11,7 @@ const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang={astroI18n.langCode} class="dark">
     <head>
         <meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0, viewport-fit=cover" />
