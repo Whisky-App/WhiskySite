@@ -8,8 +8,8 @@
     "splash": {
         "title": "Unisciti alla rivoluzione del gaming su Mac.",
         "subtitle": "Goditi gli ultimi titoli senza sforzo con Whisky.",
-        "latest-release": "Scarica l'ultimo aggiornamento",
-        "all-releases": "Vedi Tutte Le Versioni",
+        "latest-release": "Scarica l'ultimo Aggiornamento",
+        "all-releases": "Vedi tutte le versioni",
         "icon-alt": "Logo Di Whisky"
     },
     "wine": {
@@ -35,21 +35,21 @@
             "description": "Interfaccia utente nativa creata da zero per macOS. Sentiti come a casa in questa utopia dagli angoli arrotondati e dal caricamento veloce.",
             "alt": "Configurazione Della Bottiglia",
             "list": {
-                "native": "UI nativa. Velocità nativa. Nessun rallentamento causato da Electron.",
+                "native": "Interfaccia nativa. Velocità nativa. Nessun rallentamento causato da Electron.",
                 "localised": "Localizzato in 17 lingue diverse.",
                 "responsive": "Reattivo e robusto.",
                 "sonoma": "Costruito su macOS Sonoma per macOS Sonoma."
             }
         },
         "integration": {
-            "title": "Integrazione con MacOS.",
+            "title": "Integrazione con macOS.",
             "description": "Trascina e rilascia? Integrazione con il terminale? Registrazione nativa? Le abbiamo tutte.",
             "alt": "Programma di installazione GPTK trascina e rilascia"
         },
         "debugging": {
             "title": "Debugging reso facile.",
-            "description": "Collega a Xcode ed esegui catture GPU in un attimo.",
-            "alt": "Cattura GPU con Xcode"
+            "description": "Collegati a Xcode ed esegui catture GPU in un attimo.",
+            "alt": "Acquisizione GPU con Xcode"
         }
     }
 }

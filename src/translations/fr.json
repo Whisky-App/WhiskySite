@@ -6,7 +6,7 @@
         "dark": "Basculer vers le thème sombre"
     },
     "splash": {
-        "title": "Rejoignez la révolution des jeux sur Mac.",
+        "title": "Rejoignez la révolution du gaming sur Mac.",
         "subtitle": "Découvrez les derniers titres sans effort avec Whisky.",
         "latest-release": "Télécharger la Dernière Version",
         "all-releases": "Voir Toutes les Versions",
@@ -22,7 +22,7 @@
     "bento": {
         "setup": {
             "title": "Installation sans terminal.",
-            "description": "Pas d'expérience avec terminal? Pas de problème. Whisky rend l'installation simple et facile à suivre.",
+            "description": "Pas d'expérience avec le terminal? Pas de problème. Whisky rend l'installation simple et facile à suivre.",
             "alt": "Assistant d'Installation"
         },
         "tools": {
@@ -35,7 +35,7 @@
             "description": "Interface native conçue dès le départ pour macOS. Vous vous sentirez comme chez vous dans cette utopie aux coins arrondis et au chargement rapide.",
             "alt": "Configuration de Bouteille",
             "list": {
-                "native": "Interface native. Vitesses natives. Pas de ralentissement d'Electron.",
+                "native": "Interface native. Performance native. Pas de ralentissement d'Electron.",
                 "localised": "Traduit dans 17 langues différentes.",
                 "responsive": "Réactif et robuste.",
                 "sonoma": "Construit sur macOS Sonoma pour macOS Sonoma."
@@ -49,7 +49,7 @@
         "debugging": {
             "title": "Débogage facile.",
             "description": "Connectez-vous avec Xcode et réalisez des captures de GPU sans aucune difficulté.",
-            "alt": "Capture de GPU avec Xcode"
+            "alt": "Capture GPU avec Xcode"
         }
     }
 }
