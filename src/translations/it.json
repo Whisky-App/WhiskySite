@@ -1,55 +1,55 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "Unisciti al server Discord di Whisky",
+        "github": "Vai alla pagina GitHub di Whisky",
+        "light": "Passa al tema chiaro",
+        "dark": "Passa al tema scuro"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "title": "Unisciti alla rivoluzione del gaming su Mac.",
+        "subtitle": "Goditi gli ultimi titoli senza sforzo con Whisky.",
+        "latest-release": "Scarica l'ultimo aggiornamento",
+        "all-releases": "Vedi Tutte Le Versioni",
+        "icon-alt": "Logo Di Whisky"
     },
     "wine": {
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Supercaricato...",
+        "subtitle": "con la potenza di Apple Game Porting Toolkit."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "e la lista è in continua crescita..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Installazione senza terminale.",
+            "description": "Nessuna esperienza con il terminale? Nessun problema. Whisky rende la configurazione semplice e facile da seguire.",
+            "alt": "Installazione guidata"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
+            "title": "Strumenti precompilati.",
+            "description": "Non aspettare ore ad aspettare che GPTK finisca di essere compilato. Passa dall'installazione di Whisky a giocare in pochi minuti.",
             "alt": "Wine Downloader"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Design familiare.",
+            "description": "Interfaccia utente nativa creata da zero per macOS. Sentiti come a casa in questa utopia dagli angoli arrotondati e dal caricamento veloce.",
+            "alt": "Configurazione Della Bottiglia",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "UI nativa. Velocità nativa. Nessun rallentamento causato da Electron.",
+                "localised": "Localizzato in 17 lingue diverse.",
+                "responsive": "Reattivo e robusto.",
+                "sonoma": "Costruito su macOS Sonoma per macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "Integrazione con MacOS.",
+            "description": "Trascina e rilascia? Integrazione con il terminale? Registrazione nativa? Le abbiamo tutte.",
+            "alt": "Programma di installazione GPTK trascina e rilascia"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Debugging reso facile.",
+            "description": "Collega a Xcode ed esegui catture GPU in un attimo.",
+            "alt": "Cattura GPU con Xcode"
         }
     }
 }
