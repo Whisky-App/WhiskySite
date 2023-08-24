@@ -2,19 +2,19 @@
     "header": {
         "discord": "Rejoindre le Discord de Whisky",
         "github": "Aller sur le GitHub de Whisky",
-        "light": "Basculer vers le thème léger",
+        "light": "Basculer vers le thème clair",
         "dark": "Basculer vers le thème sombre"
     },
     "splash": {
         "title": "Rejoignez la révolution des jeux sur Mac.",
-        "subtitle": "Découvrez les plus récents titres sans effort avec Whisky.",
+        "subtitle": "Découvrez les derniers titres sans effort avec Whisky.",
         "latest-release": "Télécharger la Dernière Version",
         "all-releases": "Voir Toutes les Versions",
         "icon-alt": "Logo Whisky"
     },
     "wine": {
-        "supercharged": "Superchargé...",
-        "subtitle": "avec la capacité du Game Porting Toolkit d'Apple."
+        "supercharged": "Surchargé...",
+        "subtitle": "avec la puissance du Game Porting Toolkit d'Apple."
     },
     "marquee": {
         "growing": "et la liste ne cesse pas de grandir..."
@@ -26,9 +26,9 @@
             "alt": "Assistant d'Installation"
         },
         "tools": {
-            "title": "Outils préconstruits.",
-            "description": "N'attendez pas des heures pour la compilation de GPTK. Passez de l'installation de Whisky au jeu en quelques minutes.",
-            "alt": "Wine Telecharger"
+            "title": "Outils précompilés.",
+            "description": "N'attendez pas des heures que GPTK compile. Passez de l'installation de Whisky au jeu en quelques minutes.",
+            "alt": "Téléchargeur de Wine"
         },
         "design": {
             "title": "Design familier.",
@@ -36,20 +36,20 @@
             "alt": "Configuration de Bouteille",
             "list": {
                 "native": "Interface native. Vitesses natives. Pas de ralentissement d'Electron.",
-                "localised": "Localisé dans 17 langues différentes.",
+                "localised": "Traduit dans 17 langues différentes.",
                 "responsive": "Réactif et robuste.",
                 "sonoma": "Construit sur macOS Sonoma pour macOS Sonoma."
             }
         },
         "integration": {
             "title": "Intégration macOS.",
-            "description": "Glisser-déposer? Integration du terminal? Logging native? Nous l'avons.",
-            "alt": "Glisser-Déposer Installateur de GPTK"
+            "description": "Glisser-déposer ? Intégration du terminal ? Logging natif ? Nous l'avons.",
+            "alt": "Glisser et Déposer Installateur de GPTK"
         },
         "debugging": {
             "title": "Débogage facile.",
             "description": "Connectez-vous avec Xcode et réalisez des captures de GPU sans aucune difficulté.",
-            "alt": "Capture de GPU en Xcode"
+            "alt": "Capture de GPU avec Xcode"
         }
     }
 }
