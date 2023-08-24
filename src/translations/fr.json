@@ -17,7 +17,7 @@
         "subtitle": "avec la puissance du Game Porting Toolkit d'Apple."
     },
     "marquee": {
-        "growing": "et la liste ne cesse pas de grandir..."
+        "growing": "et la liste ne cesse de grandir..."
     },
     "bento": {
         "setup": {
@@ -28,7 +28,7 @@
         "tools": {
             "title": "Outils précompilés.",
             "description": "N'attendez pas des heures que GPTK compile. Passez de l'installation de Whisky au jeu en quelques minutes.",
-            "alt": "Téléchargeur de Wine"
+            "alt": "Wine Downloader"
         },
         "design": {
             "title": "Design familier.",
@@ -43,12 +43,12 @@
         },
         "integration": {
             "title": "Intégration macOS.",
-            "description": "Glisser-déposer ? Intégration du terminal ? Logging natif ? Nous l'avons.",
-            "alt": "Glisser et Déposer Installateur de GPTK"
+            "description": "Glisser-déposer ? Intégration au terminal ? Logging natif ? Nous l'avons.",
+            "alt": "Installateur de GPTK glisser-déposer"
         },
         "debugging": {
             "title": "Débogage facile.",
-            "description": "Connectez-vous avec Xcode et réalisez des captures de GPU sans aucune difficulté.",
+            "description": "Connectez Xcode et réalisez des captures de GPU sans aucune difficulté.",
             "alt": "Capture GPU avec Xcode"
         }
     }
