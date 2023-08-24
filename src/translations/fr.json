@@ -28,7 +28,7 @@
         "tools": {
             "title": "Outils précompilés.",
             "description": "N'attendez pas des heures que GPTK compile. Passez de l'installation de Whisky au jeu en quelques minutes.",
-            "alt": "Téléchargeur de Wine"
+            "alt": "Wine downloader"
         },
         "design": {
             "title": "Design familier.",
@@ -48,7 +48,7 @@
         },
         "debugging": {
             "title": "Débogage facile.",
-            "description": "Connectez-vous avec Xcode et réalisez des captures de GPU sans aucune difficulté.",
+            "description": "Connectez Xcode et réalisez des captures de GPU sans aucune difficulté.",
             "alt": "Capture GPU avec Xcode"
         }
     }
