@@ -1,27 +1,27 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "Únete al Discord de Whisky",
+        "github": "Ir al GitHub de Whisky",
+        "light": "Cambiar a modo claro",
+        "dark": "Cambiar a modo oscuro"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "title": "Únete a la revolución de juegos en Mac.",
+        "subtitle": "Disfruta de los últimos títulos con Whisky sin esforzarte.",
+        "latest-release": "Descargar la última",
+        "all-releases": "Ver todas las versiones",
+        "icon-alt": "Logotipo de Whisky"
     },
     "wine": {
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Superpotenciado...",
+        "subtitle": "con el poder del Game Porting Toolkit de Apple."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "y la lista sigue creciendo..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
+            "title": "Instalación sin terminal.",
             "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
             "alt": "Setup Wizard"
         },
