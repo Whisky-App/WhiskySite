@@ -11,9 +11,7 @@
     },
     "dependencies": {
         "@astrojs/partytown": "^1.2.3",
-        "@astrojs/vue": "^2.2.1",
-        "astro": "^2.10.12",
-        "vue": "^3.3.4"
+        "astro": "^2.10.12"
     },
     "devDependencies": {
         "@unocss/reset": "^0.55.0",
