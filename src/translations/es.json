@@ -1,0 +1,55 @@
+{
+    "header": {
+        "discord": "Join Whisky's Discord",
+        "github": "Go to Whisky's GitHub",
+        "light": "Switch to light theme",
+        "dark": "Switch to dark theme"
+    },
+    "splash": {
+        "title": "Join the Mac gaming revolution.",
+        "subtitle": "Experience the latest titles effortlessly with Whisky.",
+        "latest-release": "Download Latest",
+        "all-releases": "See All Releases",
+        "icon-alt": "Whisky Logo"
+    },
+    "wine": {
+        "supercharged": "Supercharged...",
+        "subtitle": "with the power of Apple's Game Porting Toolkit."
+    },
+    "marquee": {
+        "growing": "and the list is always growing..."
+    },
+    "bento": {
+        "setup": {
+            "title": "No-terminal setup.",
+            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
+            "alt": "Setup Wizard"
+        },
+        "tools": {
+            "title": "Pre-built tools.",
+            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
+            "alt": "Wine Downloader"
+        },
+        "design": {
+            "title": "Familiar design.",
+            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
+            "alt": "Bottle Config",
+            "list": {
+                "native": "Native UI. Native speeds. No Electron slowdown.",
+                "localised": "Localised in 17 different languges.",
+                "responsive": "Responsive and robust.",
+                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+            }
+        },
+        "integration": {
+            "title": "macOS integration.",
+            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
+            "alt": "Drag-n-drop GPTK Installer"
+        },
+        "debugging": {
+            "title": "Debugging made easy.",
+            "description": "Connect up with Xcode and make GPU captures without all the faff.",
+            "alt": "Xcode GPU Capture"
+        }
+    }
+}
