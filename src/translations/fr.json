@@ -14,7 +14,7 @@
     },
     "wine": {
         "supercharged": "Superchargé...",
-        "subtitle": "avec la capacité de Game Porting Toolkit d'Apple."
+        "subtitle": "avec la capacité du Game Porting Toolkit d'Apple."
     },
     "marquee": {
         "growing": "et la liste ne cesse pas de grandir..."
@@ -47,7 +47,7 @@
             "alt": "Glisser-Déposer Installateur de GPTK"
         },
         "debugging": {
-            "title": "Débogage facilité.",
+            "title": "Débogage facile.",
             "description": "Connectez-vous avec Xcode et réalisez des captures de GPU sans aucune difficulté.",
             "alt": "Capture de GPU en Xcode"
         }
