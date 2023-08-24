@@ -2,9 +2,10 @@ import { defineAstroI18nConfig } from "astro-i18n"
 
 export default defineAstroI18nConfig({
 	defaultLangCode: "en",
-	supportedLangCodes: ["es", "fr", "it", "ja", "ko", "nl", "pt-BR", "uk", "pt", "zh-Hans", "zh-Hant"],
+	supportedLangCodes: ["de", "es", "fr", "it", "ja", "ko", "nl", "pt-BR", "uk", "pt", "zh-Hans", "zh-Hant"],
 	showDefaultLangCode: false,
 	translations: {
+		"de": "src/translations/de.json",
 		"en": "src/translations/en.json",
 		"es": "src/translations/es.json",
 		"fr": "src/translations/fr.json",
