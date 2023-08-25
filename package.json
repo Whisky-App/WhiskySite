@@ -13,11 +13,11 @@
 		"i18n:extract:keys": "astro-i18n extract:keys"
 	},
 	"dependencies": {
-		"astro": "^2.10.12",
+		"astro": "^2.10.14",
 		"astro-i18n": "^1.8.1"
 	},
 	"devDependencies": {
-		"@unocss/reset": "^0.55.0",
-		"unocss": "^0.55.0"
+		"@unocss/reset": "^0.55.3",
+		"unocss": "^0.55.3"
 	}
 }
