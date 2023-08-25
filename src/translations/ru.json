@@ -4,8 +4,8 @@
         "github": "Присоединитесь к GitHub странице Whisky",
         "light": "Переключить на светлую тему",
         "dark": "Переключить на темную тему",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "Современная обертка Wine для macOS построенная с помощью SwiftUI",
+        "embed": "С легкостью запускайте последние DirectX 12 новинки на Вашем Mac используя Whisky!"
     },
     "splash": {
         "title": "Присоединяйтесь к игровой революции Mac.",
@@ -26,28 +26,28 @@
         "setup": {
             "title": "Установка без терминала.",
             "description": "Нет опыта работы с терминалом? Не проблема. Whisky настроит всё за вас.",
-            "alt": "Setup Wizard"
+            "alt": "Мастер установки"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "Готовые инструменты.",
+            "description": "Не ждите часы пока GPTK компилируется. Пройдите от установки Whisky до запуска игр за считанные минуты.",
+            "alt": "Загрузчик Wine"
         },
         "design": {
-            "title": "Familiar design.",
+            "title": "Знакомый дизайн.",
             "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
-            "alt": "Bottle Config",
+            "alt": "Конфигурация Bottle",
             "list": {
                 "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languages.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "localised": "Переведен на 17 различных языков.",
+                "responsive": "Отзывчивый и надежный.",
+                "sonoma": "Разработан на macOS Sonoma для macOS Sonoma."
             }
         },
         "integration": {
             "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "description": "Drag-n-drop? Интеграция терминала? Нативное логирование? У нас это есть.",
+            "alt": "Установщик GPTK с функцией перетягивания"
         },
         "debugging": {
             "title": "Debugging made easy.",
