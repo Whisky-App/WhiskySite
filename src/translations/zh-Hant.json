@@ -32,11 +32,11 @@
         },
         "design": {
             "title": "熟悉的設計。",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
+            "description": "從零打造的macOS原生UI，賓至如歸宾，加載如燕。",
             "alt": "Bottle設置",
             "list": {
                 "native": "原生UI，原生速度，毫無Electron的遲滯。",
-                "localised": "Localised in 17 different languages.",
+                "localised": "支持17種不同語言顯示。",
                 "responsive": "反應靈敏穩定。",
                 "sonoma": "基於macOS Sonoma，為macOS Sonoma構建。"
             }
