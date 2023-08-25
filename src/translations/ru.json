@@ -25,7 +25,7 @@
     "bento": {
         "setup": {
             "title": "Установка без терминала.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
+            "description": "Нет опыта работы с терминалом? Не проблема. Whisky настроит всё за вас.",
             "alt": "Setup Wizard"
         },
         "tools": {
