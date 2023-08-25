@@ -32,11 +32,11 @@
         },
         "design": {
             "title": "Vertrouwd design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
+            "description": "Native gebruikersinterface, vanaf de basis opgebouwd voor macOS. Voel je meteen thuis in deze snel ladende utopie.",
             "alt": "Bottle configuratie",
             "list": {
                 "native": "Native gebruikersinterface. Vanuit de basis snel. Geen Electron traagheid.",
-                "localised": "Localised in 17 different languages.",
+                "localised": "Gelokaliseerd in 17 verschillende talen.",
                 "responsive": "Responsief en robuust.",
                 "sonoma": "Gebouwd met macOS Sonoma, voor macOS Sonoma."
             }
