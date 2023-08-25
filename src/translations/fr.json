@@ -32,11 +32,11 @@
         },
         "design": {
             "title": "Design familier.",
-            "description": "Interface native conçue dès le départ pour macOS. Vous vous sentirez comme chez vous dans cette utopie aux coins arrondis et au chargement rapide.",
+            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
             "alt": "Configuration de Bouteille",
             "list": {
                 "native": "Interface native. Performance native. Pas de ralentissement d'Electron.",
-                "localised": "Traduit dans 17 langues différentes.",
+                "localised": "Localised in 17 different languages.",
                 "responsive": "Réactif et robuste.",
                 "sonoma": "Construit sur macOS Sonoma pour macOS Sonoma."
             }
