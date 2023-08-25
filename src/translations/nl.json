@@ -1,55 +1,55 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "Word lid van Whisky's Discord",
+        "github": "Ga naar Whisky's GitHub",
+        "light": "Overschakelen naar licht thema",
+        "dark": "Overschakelen naar donker thema"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
+        "title": "Doe mee met de Mac-gamingrevolutie.",
+        "subtitle": "Ervaar moeiteloos de nieuwste titels met Whisky.",
+        "latest-release": "Nieuwste release downloaden",
+        "all-releases": "Alle releases bekijken",
         "icon-alt": "Whisky Logo"
     },
     "wine": {
         "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "subtitle": "met de kracht van Apple's Game Porting Toolkit."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "en de lijst wordt steeds groter..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Installatie zonder terminal.",
+            "description": "Geen terminalervaring? Geen probleem. Whiskey maakt de installatie eenvoudig en gemakkelijk te volgen.",
+            "alt": "Installatiewizard"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
+            "title": "Vooraf gebouwde tools.",
+            "description": "Wacht geen uren totdat GPTK is gecompileerd. Ga binnen enkele minuten van het installeren van Whiskey naar gamen.",
             "alt": "Wine Downloader"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Vertrouwd ontwerp.",
+            "description": "Native UI vanaf de basis opgebouwd voor macOS. Voel je meteen thuis in deze snel ladende utopie met afgeronde hoeken.",
+            "alt": "Flesconfiguratie",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "Native UI. Eigen snelheden. Geen elektronenvertraging.",
+                "localised": "Gelokaliseerd in 17 verschillende talen.",
+                "responsive": "Responsief en robuust.",
+                "sonoma": "Gebouwd op macOS Sonoma voor macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "macOS-integratie.",
+            "description": "slepen en neerzetten? Terminal-integratie? Native loggen? We snappen het.",
+            "alt": "GPTK-installatieprogramma slepen en neerzetten"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Foutopsporing eenvoudig gemaakt.",
+            "description": "Maak verbinding met Xcode en maak GPU-opnames zonder al het gedoe.",
+            "alt": "Xcode GPU-opname"
         }
     }
 }
