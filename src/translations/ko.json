@@ -1,9 +1,9 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "Whisky Discord 참여하기",
+        "github": "Whisky GitHub로 가기",
+        "light": "밝은 테마로 전환",
+        "dark": "어두운 테마로 전환"
     },
     "splash": {
         "title": "Join the Mac gaming revolution.",
