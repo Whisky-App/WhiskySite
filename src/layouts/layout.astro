@@ -1,7 +1,7 @@
 ---
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
-import { astroI18n } from 'astro-i18n';
+import { astroI18n, t } from 'astro-i18n';
 
 export interface Props {
 	title: string;
@@ -19,7 +19,7 @@ const { title } = Astro.props;
         <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></noscript>
         <meta name="generator" content={Astro.generator} />
-		<meta name="description" content="A modern Wine wrapper for macOS built with SwiftUI" />
+		<meta name="description" content=`${ t("header.description") }` />
         <meta name="keywords" content="mac, gaming, mac gaming, games for mac, mac open source, gptk, game porting toolkit, wine, wine mac">
         <meta name="robots" content= "index, follow">
         <link rel="canonical" href="https://getwhisky.app"/>
@@ -28,12 +28,12 @@ const { title } = Astro.props;
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b6ca967169cc400a909ea86827189873"}'></script>
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@isaacmarovitz"/>
-        <meta name="twitter:title" content="Whisky - A modern Wine wrapper for macOS built with SwiftUI">
-        <meta name="twitter:description" content="Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!">
+        <meta name="twitter:title" content=`Whisky - ${ t("header.description") }`>
+        <meta name="twitter:description" content=`${ t("header.embed") }`>
         <meta name="twitter:image" content="https://getwhisky.app/square-icon.png">
-        <meta property="og:title" content="Whisky - A modern Wine wrapper for macOS built with SwiftUI">
+        <meta property="og:title" content=`Whisky - ${ t("header.description") }`>
         <meta property="og:url" content="https://playcover.io">
-        <meta property="og:description" content="Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!">
+        <meta property="og:description" content=`${ t("header.embed") }`>
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://getwhisky.app/square-icon.png">
         <script type="application/ld+json">
