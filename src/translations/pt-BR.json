@@ -28,7 +28,7 @@
         "tools": {
             "title": "Ferramentas compiladas.",
             "description": "Não espere horas para que o GPTK seja compilado. Comece a jogar em minutos após instalar o Whisky.",
-            "alt": "Wine Downloader"
+            "alt": "Instalador do Wine"
         },
         "design": {
             "title": "Design familiar.",
@@ -43,12 +43,12 @@
         },
         "integration": {
             "title": "Integração com macOS.",
-            "description": "Arrastar e soltar? Integração terminal? Registro nativo? Nós temos.",
+            "description": "Arrastar e soltar? Integração com o terminal? Registro nativo? Nós temos.",
             "alt": "Instale o GPTK arrastando e soltando"
         },
         "debugging": {
             "title": "Fácil de debugar.",
-            "description": "Conecte-se com Xcode e faça capturas GPU sem o esforço.",
+            "description": "Conecte-se com Xcode e faça capturas da GPU sem o esforço.",
             "alt": "Captura da GPU com Xcode"
         }
     }
