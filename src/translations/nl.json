@@ -2,8 +2,8 @@
     "header": {
         "discord": "Word lid van Whisky's Discord",
         "github": "Ga naar Whisky's GitHub",
-        "light": "Schakel over naar het lichte thema",
-        "dark": "Schakel over naar het donkere thema"
+        "light": "Activeer het lichte thema",
+        "dark": "Activeer het donkere thema"
     },
     "splash": {
         "title": "Doe mee met de Mac gaming revolutie.",
@@ -38,12 +38,12 @@
                 "native": "Native gebruikersinterface. Vanuit de basis snel. Geen Electron traagheid.",
                 "localised": "Gelokaliseerd in 17 verschillende talen.",
                 "responsive": "Responsief en robuust.",
-                "sonoma": "Gebouwd met macOS Sonoma voor macOS Sonoma."
+                "sonoma": "Gebouwd met macOS Sonoma, voor macOS Sonoma."
             }
         },
         "integration": {
             "title": "macOS integratie.",
-            "description": "Drag-n-drop? Terminal integratie? Native logboekregistratie? We hebben het.",
+            "description": "Drag-n-drop? Terminal integratie? Native logboekregistratie? Wij hebben het.",
             "alt": "Drag-n-drop GPTK installatie"
         },
         "debugging": {
