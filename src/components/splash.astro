@@ -4,10 +4,10 @@ import { t } from "astro-i18n";
 
 <div class="h-[100vh] max-w-[1920px] mx-auto flex flex-col items-center justify-center px-5 md:px-10 lg:px-20 gap-5 lg:gap-0">
     <div class="flex flex-col-reverse gap-5 sm:flex-row items-center">
-        <div class="flex flex-col gap-5">
-            <h1 class="text-4xl text-center sm:text-left md:text-6xl xl:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-red-500">{ t("splash.title") }</h1>
+        <div class="flex flex-col">
+            <h1 class="text-4xl text-center sm:text-left md:text-6xl xl:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-red-500 py-5">{ t("splash.title") }</h1>
             <p class="text-black dark:text-white text-center sm:text-left tracking-wide text-sm md:text-xl">{ t("splash.subtitle") }</p>
-            <div class="flex w-full gap-5 justify-center sm:justify-start">
+            <div class="flex w-full gap-5 justify-center sm:justify-start py-5">
                 <a href="https://github.com/Whisky-App/Whisky/releases/latest/download/Whisky.zip" rel="noreferrer noopener">
                     <div class="bg-amber-500 px-4 py-2 rounded-2xl sm:rounded-3xl transition duration-300 hover:ease-in-out hover:bg-red-500 hover:drop-shadow-xl hover:scale-105">
                         <p class="text-center text-black text-sm md:text-lg font-bold">{ t("splash.latest-release") }</p>
