@@ -1,30 +1,30 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme",
+        "discord": "Присоединитесь к Discord серверу Whisky",
+        "github": "Присоединитесь к GitHub странице Whisky",
+        "light": "Переключить на светлую тему",
+        "dark": "Переключить на темную тему",
         "description": "A modern Wine wrapper for macOS built with SwiftUI",
         "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "title": "Присоединяйтесь к игровой революции Mac.",
+        "subtitle": "Испытайте новейшие игры с помощью Whisky.",
+        "latest-release": "Скачать Последнею Версию",
+        "all-releases": "Все Версии",
+        "icon-alt": "Логотип Whisky"
     },
     "wine": {
         "wine": "Wine",
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Заряжен...",
+        "subtitle": "с мощью Game Porting Toolkit от Apple."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "и список постоянно растет..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
+            "title": "Установка без терминала.",
             "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
             "alt": "Setup Wizard"
         },
