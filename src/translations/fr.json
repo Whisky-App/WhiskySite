@@ -3,7 +3,9 @@
         "discord": "Rejoindre le Discord de Whisky",
         "github": "Aller sur le GitHub de Whisky",
         "light": "Basculer vers le thème clair",
-        "dark": "Basculer vers le thème sombre"
+        "dark": "Basculer vers le thème sombre",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
     },
     "splash": {
         "title": "Rejoignez la révolution du gaming sur Mac.",
@@ -13,6 +15,7 @@
         "icon-alt": "Logo Whisky"
     },
     "wine": {
+        "wine": "Wine",
         "supercharged": "Surchargé...",
         "subtitle": "avec la puissance du Game Porting Toolkit d'Apple."
     },
