@@ -1,29 +1,29 @@
 {
     "header": {
-        "discord": "Junte-se ao Discord do Whisky",
+        "discord": "Junta-te ao Discord do Whisky",
         "github": "Ir para o GitHub do Whisky",
-        "light": "Mudar para o Modo Claro",
-        "dark": "Mudar para o Modo Escuro"
+        "light": "Mudar para tema claro",
+        "dark": "Mudar para tema escuro"
     },
     "splash": {
         "title": "Junta-te à revolução de gaming no Mac.",
-        "subtitle": "Experiêncie os títulos mais recentes sem esforço com Whisky.",
+        "subtitle": "Experiencia facilmente os títulos mais recentes com Whisky.",
         "latest-release": "Descarregar versão mais recente",
         "all-releases": "Ver todas as versões",
         "icon-alt": "Logo do Whisky"
     },
     "wine": {
-        "supercharged": "Sobrecarregado...",
-        "subtitle": "com o poder do Game Porting Toolkit da Apple."
+        "supercharged": "Mais potente e rápido...",
+        "subtitle": "com o poder do kit de ferramentas de portabilidade de jogos da Apple."
     },
     "marquee": {
         "growing": "e a lista está sempre a crescer..."
     },
     "bento": {
         "setup": {
-            "title": "Sem configuração de terminal.",
-            "description": "Sem experiência no terminal? Sem problema. Whisky facilita a configuração.",
-            "alt": "Assistente de Configuração"
+            "title": "Instalação sem necessitar do terminal.",
+            "description": "Sem experiência a usar o terminal? Não há problema. O Whisky tem uma instalação automatizada e fácil de seguir.",
+            "alt": "Assistente de Instalação"
         },
         "tools": {
             "title": "Ferramentas pré-compiladas.",
