@@ -3,7 +3,9 @@
         "discord": "Word lid van Whisky's Discord",
         "github": "Ga naar Whisky's GitHub",
         "light": "Activeer het lichte thema",
-        "dark": "Activeer het donkere thema"
+        "dark": "Activeer het donkere thema",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
     },
     "splash": {
         "title": "Doe mee met de Mac gaming revolutie.",
@@ -13,6 +15,7 @@
         "icon-alt": "Whisky Logo"
     },
     "wine": {
+        "wine": "Wine",
         "supercharged": "Volgeladen...",
         "subtitle": "met de kracht van Apple's Game Porting Toolkit."
     },
