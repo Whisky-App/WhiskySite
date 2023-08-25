@@ -4,8 +4,8 @@
         "github": "Присоединитесь к GitHub странице Whisky",
         "light": "Переключить на светлую тему",
         "dark": "Переключить на темную тему",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "Современная обертка Wine для macOS построенная с помощью SwiftUI",
+        "embed": "С легкостью запускайте последние DirectX 12 новинки на Вашем Mac используя Whisky!"
     },
     "splash": {
         "title": "Присоединяйтесь к игровой революции Mac.",
@@ -25,34 +25,34 @@
     "bento": {
         "setup": {
             "title": "Установка без терминала.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "description": "Нет опыта работы с терминалом? Не проблема. Whisky настроит всё за вас.",
+            "alt": "Мастер установки"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "Готовые инструменты.",
+            "description": "Не ждите часы пока GPTK компилируется. Пройдите от установки Whisky до запуска игр за считанные минуты.",
+            "alt": "Загрузчик Wine"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Знакомый дизайн.",
+            "description": "Нативный UI созданный с нуля для macOS. Чувствуйте себя как дома в этой утопии с закругленными углами и быстрой загрузкой.",
+            "alt": "Конфигурация Bottle",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languages.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "Родной интерфейс. Нативная скорость. Без замедлений.",
+                "localised": "Переведен на 17 различных языков.",
+                "responsive": "Отзывчивый и надежный.",
+                "sonoma": "Разработан на macOS Sonoma для macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "интеграция с macOS.",
+            "description": "Drag-n-drop? Интеграция с терминалом? Нативное логирование? У нас это есть.",
+            "alt": "Установщик GPTK с функцией перетягивания"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Легкая отладка.",
+            "description": "Подключись к Xcode и сделай захват GPU без проблем.",
+            "alt": "Захват данных видеокарты с помощью Xcode"
         }
     }
 }
