@@ -47,9 +47,9 @@
             "alt": "Faz Drag-n-Drop (arrastar e largar) do Instalador do GPTK"
         },
         "debugging": {
-            "title": "Debugging feito facil.",
-            "description": "Coneta-te com o Xcode e faz capturas da GPU sem a confusão toda.",
-            "alt": "Captura de GPU com Xcode"
+            "title": "Correção de erros fácil.",
+            "description": "Liga-te usando o Xcode e faz capturas da GPU sem a confusão toda.",
+            "alt": "Captura de GPU com o Xcode"
         }
     }
 }
