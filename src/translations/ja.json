@@ -32,11 +32,11 @@
         },
         "design": {
             "title": "おなじみのデザイン。",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
+            "description": "MacOS 用にゼロから構築されたネイティブ UI。 この角の丸い、読み込みの速い理想郷で、まるで家にいるような気分になれます。",
             "alt": "ボトル構成",
             "list": {
                 "native": "ネイティブUI。 ネイティブのスピード。 電子の減速なし。",
-                "localised": "Localised in 17 different languages.",
+                "localised": "17 か国語にローカライズされています。",
                 "responsive": "応答性と堅牢性。",
                 "sonoma": "MacOS Sonoma のために macOS Sonoma 上に構築されています。"
             }
