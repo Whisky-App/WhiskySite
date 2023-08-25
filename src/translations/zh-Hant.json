@@ -3,7 +3,9 @@
         "discord": "加入Whisky的Discord",
         "github": "看看Whisky的GitHub",
         "light": "切換至淺色主題",
-        "dark": "切換至深色主題"
+        "dark": "切換至深色主題",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
     },
     "splash": {
         "title": "參與Mac遊戲變革",
@@ -13,6 +15,7 @@
         "icon-alt": "Whisky徽標"
     },
     "wine": {
+        "wine": "Wine",
         "supercharged": "超絕支援...",
         "subtitle": "由蘋果遊戲移植工具提供支援."
     },
