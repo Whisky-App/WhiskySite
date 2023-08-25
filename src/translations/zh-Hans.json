@@ -1,12 +1,12 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "加入Whisky的Discord",
+        "github": "看看Whisky的GitHub",
+        "light": "切换到浅色主题",
+        "dark": "切换到深色主题"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
+        "title": "参与Mac游戏变革",
         "subtitle": "Experience the latest titles effortlessly with Whisky.",
         "latest-release": "Download Latest",
         "all-releases": "See All Releases",
