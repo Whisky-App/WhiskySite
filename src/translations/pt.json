@@ -27,24 +27,24 @@
         },
         "tools": {
             "title": "Ferramentas pré-compiladas.",
-            "description": "Não espere horas para que o GPTK seja compilado. De instalar o Whisky a jogar em minutos.",
-            "alt": "Wine Downloader"
+            "description": "Não esperes horas para que o GPTK seja compilado. Instalar o Whisky e começar a jogar demora apenas minutos.",
+            "alt": "Descarregador do Wine"
         },
         "design": {
             "title": "Design familiar.",
-            "description": "UI nativa construída a partir do zero para macOS. Sinta-se bem em casa nesta utopia de carregamento rápido e cantos arredondados.",
-            "alt": "Configuração de Bottle",
+            "description": "Interface com o utilizador nativa construída a partir do zero para macOS. Vais sentir-te em casa neste sonho bem elaborado e de carregamento rápido.",
+            "alt": "Configuração do Bottle",
             "list": {
-                "native": "UI nativa. Velocidade nativa. Sem lentidão do Electron.",
-                "localised": "Disponível em 17 linguas.",
-                "responsive": "Responsivo e robusto.",
-                "sonoma": "Desenvolvido no macOS Sonoma para macOS Sonoma."
+                "native": "Interface com o utilizador nativa. Velocidade nativa. Sem desaceleração causada pelo uso de Electron.",
+                "localised": "Disponível em 17 línguas.",
+                "responsive": "Rápido a reagir e robusto.",
+                "sonoma": "Desenvolvido no macOS Sonoma para o macOS Sonoma."
             }
         },
         "integration": {
             "title": "Integração com macOS.",
-            "description": "Drag-n-drop? Integração de terminal? Logging nativo? Temos isso tudo.",
-            "alt": "Arraste o instalador GPTK"
+            "description": "Drag-n-drop (arrastar e largar)? Integração com o terminal? Logging nativo? Temos o que precisas.",
+            "alt": "Faz Drag-n-Drop (arrastar e largar) do Instalador do GPTK"
         },
         "debugging": {
             "title": "Debugging feito facil.",
