@@ -1,19 +1,19 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
+        "discord": "Junte-se ao Discord do Whisky",
         "github": "Ir para o GitHub do Whisky",
-        "light": "Mudar para o tema claro",
-        "dark": "Mudar para o tema escuro"
+        "light": "Trocar para o tema claro",
+        "dark": "Trocar para o tema escuro"
     },
     "splash": {
         "title": "Junte-se à revolução dos jogos no Mac.",
-        "subtitle": "Jogue os títulos mais recentes facilmente com Whisky.",
-        "latest-release": "Baixar última versão",
+        "subtitle": "Jogue títulos recentes facilmente com Whisky.",
+        "latest-release": "Baixar versão mais recente",
         "all-releases": "Ver todas as versões",
         "icon-alt": "Logo do Whisky"
     },
     "wine": {
-        "supercharged": "Supercharged...",
+        "supercharged": "Mais potente e rápido...",
         "subtitle": "Com o poder do Game Porting Toolkit da Apple."
     },
     "marquee": {
@@ -21,35 +21,35 @@
     },
     "bento": {
         "setup": {
-            "title": "Instalação sem terminal.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Sem precisar abrir o terminal.",
+            "description": "Sem experiência no terminal? Sem problema. Configurar o Whisky é simples e sem esforço.",
+            "alt": "Assistente de Configuração"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
+            "title": "Ferramentas compiladas.",
+            "description": "Não espere horas para que o GPTK seja compilado. Comece a jogar em minutos após instalar o Whisky.",
             "alt": "Wine Downloader"
         },
         "design": {
             "title": "Design familiar.",
-            "description": "UI nativa e construída a partir do zero para macOS. Sinta-se em casa nessa utopia de cantos redondos e carregamento rápido.",
-            "alt": "Bottle Config",
+            "description": "UI nativa e construída do zero para macOS. Sinta-se em casa em um aplicativo rápido e bem projetado.",
+            "alt": "Configuração do Bottle",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "Interface e velocidade nativa. Sem a lentidão do Electron.",
+                "localised": "Localizado em 17 idiomas diferentes.",
+                "responsive": "Responsivo e robusto.",
+                "sonoma": "Desenvolvido no macOS Sonoma para o macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "Integração com macOS.",
+            "description": "Arrastar e soltar? Integração terminal? Registro nativo? Nós temos.",
+            "alt": "Instale o GPTK arrastando e soltando"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Fácil de debugar.",
+            "description": "Conecte-se com Xcode e faça capturas GPU sem o esforço.",
+            "alt": "Captura da GPU com Xcode"
         }
     }
 }
