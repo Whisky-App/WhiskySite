@@ -32,11 +32,11 @@
         },
         "design": {
             "title": "熟悉的设计。",
-            "description": "从零打造的macOS原生界面，宾至如归，加载如燕。",
+            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
             "alt": "Bottle设置",
             "list": {
                 "native": "原生界面，原生速度，没有Electron的迟滞。",
-                "localised": "支持17种不同语言显示。",
+                "localised": "Localised in 17 different languages.",
                 "responsive": "反应灵敏稳定。",
                 "sonoma": "基于 macOS Sonoma，为macOS Sonoma 构建。"
             }
