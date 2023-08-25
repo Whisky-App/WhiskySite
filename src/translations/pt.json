@@ -17,38 +17,38 @@
         "subtitle": "com o poder do Game Porting Toolkit da Apple."
     },
     "marquee": {
-        "growing": "e a lista está sempre em crescer..."
+        "growing": "e a lista está sempre a crescer..."
     },
     "bento": {
         "setup": {
             "title": "Sem configuração de terminal.",
             "description": "Sem experiência no terminal? Sem problema. Whisky facilita a configuração.",
-            "alt": "Setup Wizard"
+            "alt": "Assistente de Configuração"
         },
         "tools": {
-            "title": "Pre-built tools.",
+            "title": "Ferramentas pré-compiladas.",
             "description": "Não espere horas para que o GPTK seja compilado. De instalar o Whisky a jogar em minutos.",
             "alt": "Wine Downloader"
         },
         "design": {
             "title": "Design familiar.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
+            "description": "UI nativa construída a partir do zero para macOS. Sinta-se bem em casa nesta utopia de carregamento rápido e cantos arredondados.",
             "alt": "Configuração de Bottle",
             "list": {
                 "native": "UI nativa. Velocidade nativa. Sem lentidão do Electron.",
-                "localised": "Localised in 17 different languges.",
+                "localised": "Disponível em 17 linguas.",
                 "responsive": "Responsivo e robusto.",
                 "sonoma": "Desenvolvido no macOS Sonoma para macOS Sonoma."
             }
         },
         "integration": {
             "title": "Integração com macOS.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
+            "description": "Drag-n-drop? Integração de terminal? Logging nativo? Temos isso tudo.",
             "alt": "Arraste o instalador GPTK"
         },
         "debugging": {
             "title": "Debugging feito facil.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
+            "description": "Coneta-te com o Xcode e faz capturas da GPU sem a confusão toda.",
             "alt": "Captura de GPU com Xcode"
         }
     }
