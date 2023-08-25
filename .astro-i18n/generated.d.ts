@@ -1,5 +1,5 @@
 type DefaultLangCode = "en"
-type SupportedLangCode = "de" | "es" | "fr" | "it" | "ja" | "ko" | "nl" | "pt-BR" | "uk" | "pt" | "zh-Hans" | "zh-Hant"
+type SupportedLangCode = "da" | "de" | "es" | "fi" | "fr" | "it" | "ja" | "ko" | "nl" | "pl" | "pt-BR" | "ru" | "uk" | "vi" | "pt" | "tr" | "zh-Hans" | "zh-Hant"
 type LangCode = DefaultLangCode | SupportedLangCode
 type RouteUri = | "/" 
 type RouteParams = {"/": undefined; }
