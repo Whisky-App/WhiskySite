@@ -3,7 +3,9 @@
         "discord": "Whisky の Discord に参加する",
         "github": "Whisky の GitHub にアクセスする",
         "light": "ライトテーマに切り替える",
-        "dark": "暗いテーマに切り替える"
+        "dark": "暗いテーマに切り替える",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
     },
     "splash": {
         "title": "Mac ゲーム革命に参加しましょう。",
@@ -13,6 +15,7 @@
         "icon-alt": "ウイスキーのロゴ"
     },
     "wine": {
+        "wine": "Wine",
         "supercharged": "スーパーチャージされた...",
         "subtitle": "Apple Game Porting Toolkit の力を借りて。"
     },
