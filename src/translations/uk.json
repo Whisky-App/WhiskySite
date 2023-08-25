@@ -1,55 +1,55 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "Приєднатися до Whiski Discord",
+        "github": "Перейти на Whisky GitHub",
+        "light": "Встановити світлу тему",
+        "dark": "Увімкнути темну тему"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "title": "Приєднуйтесь до революції комп'ютерних ігор на Mac.",
+        "subtitle": "Відчуйте останні назви без зусиль з Whisky.",
+        "latest-release": "Завантажити останню версію",
+        "all-releases": "Переглянути всі випуски",
+        "icon-alt": "Логотип Whisky"
     },
     "wine": {
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Перезаряджено...",
+        "subtitle": "за допомогою потужності Apple Game Porting Toolkit."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "і список постійно зростає..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Налаштування без терміналу.",
+            "description": "Немає досвіду використання терміналів? Без проблем. Whisky робить налаштування невимушеними та легкими для виконання.",
+            "alt": "Майстер установки"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "Заздалегідь створені інструменти.",
+            "description": "Не чекайте години, поки GPTK компілюється. Перейдіть від встановлення Whisky до гри за лічені хвилини.",
+            "alt": "Завантажувач Wine"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Знайомий дизайн.",
+            "description": "Власний користувальницький інтерфейс, створений з нуля для macOS. Відчуйте себе як удома в цій утопії із закругленими кутами, яка швидко завантажується.",
+            "alt": "Конфігурація Bottle",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "Рідний UI. Нативні швидкості. Немає уповільнення електронів.",
+                "localised": "Локалізовано 17 різними мовами.",
+                "responsive": "Чуйний та надійний.",
+                "sonoma": "Створено на macOS Sonoma для macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "інтеграція з macOS.",
+            "description": "Перетягніть і відпустіть? Інтеграція терміналу? Внутрішня журналізація? У нас це є.",
+            "alt": "Інсталятор GPTK із функцією перетягування"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Усунення неполадок стало легким.",
+            "description": "Підключіться за допомогою Xcode та зробіть захоплення графічним процесором без жодних проблем.",
+            "alt": "Захоплювання GPU Xcode"
         }
     }
 }

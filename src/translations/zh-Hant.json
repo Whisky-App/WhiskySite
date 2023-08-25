@@ -26,29 +26,29 @@
             "alt": "安裝嚮導"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "預設工具。",
+            "description": "無需等待 GPTK 數小時的編譯時間。開始安裝 Whisky ，幾分鐘後就開始遊戲。",
+            "alt": "Wine下載器"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
-            "alt": "Bottle Config",
+            "title": "熟悉的設計。",
+            "description": "從零打造的macOS原生UI，賓至如歸宾，加載如燕。",
+            "alt": "Bottle設置",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "原生UI，原生速度，毫無Electron的遲滯。",
+                "localised": "支持17種不同語言顯示。",
+                "responsive": "反應靈敏穩定。",
+                "sonoma": "基於macOS Sonoma，為macOS Sonoma構建。"
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "macOS集成。",
+            "description": "拖放？終端集成？原生日誌？我們全都搞定。",
+            "alt": "拖放安裝蘋果遊戲移植工具GPTK"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
+            "title": "Debug變得容易。",
+            "description": "連結到Xcode，獲取GPU Captures，沒有繁文縟節。",
             "alt": "Xcode GPU Capture"
         }
     }

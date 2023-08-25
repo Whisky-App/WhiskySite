@@ -9,19 +9,19 @@
         "title": "Join the Mac gaming revolution.",
         "subtitle": "Experience the latest titles effortlessly with Whisky.",
         "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
+        "all-releases": "Ver todas as versões",
         "icon-alt": "Whisky Logo"
     },
     "wine": {
         "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "subtitle": "Com o poder do Game Porting Toolkit da Apple."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "e a lista está sempre crescendo..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
+            "title": "Instalação sem terminal.",
             "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
             "alt": "Setup Wizard"
         },
@@ -31,8 +31,8 @@
             "alt": "Wine Downloader"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
+            "title": "Design familiar.",
+            "description": "UI nativa e construída a partir do zero para macOS. Sinta-se em casa nessa utopia de cantos redondos e carregamento rápido.",
             "alt": "Bottle Config",
             "list": {
                 "native": "Native UI. Native speeds. No Electron slowdown.",

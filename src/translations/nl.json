@@ -1,55 +1,55 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "discord": "Word lid van Whisky's Discord",
+        "github": "Ga naar Whisky's GitHub",
+        "light": "Activeer het lichte thema",
+        "dark": "Activeer het donkere thema"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
+        "title": "Doe mee met de Mac gaming revolutie.",
+        "subtitle": "Ervaar de nieuwste titels moeiteloos met Whisky.",
+        "latest-release": "Download nieuwste versie",
+        "all-releases": "Alle versies bekijken",
         "icon-alt": "Whisky Logo"
     },
     "wine": {
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Volgeladen...",
+        "subtitle": "met de kracht van Apple's Game Porting Toolkit."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "en de lijst groeit altijd..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Geen Terminal nodig.",
+            "description": "Geen ervaring met de Terminal? Geen probleem. Whisky maakt de installatie hands-off en eenvoudig te volgen.",
+            "alt": "Installatiewizard"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "Kant-en-klare hulpmiddelen.",
+            "description": "Wacht geen uren totdat GPTK is gecompileerd. Ga in enkele minuten van het installeren van Whiskey naar het spelen van je games.",
+            "alt": "Wine downloader"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Vertrouwd design.",
+            "description": "Native gebruikersinterface, vanaf de basis opgebouwd voor macOS. Voel je meteen thuis in deze snel ladende utopie.",
+            "alt": "Bottle configuratie",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "Native gebruikersinterface. Vanuit de basis snel. Geen Electron traagheid.",
+                "localised": "Gelokaliseerd in 17 verschillende talen.",
+                "responsive": "Responsief en robuust.",
+                "sonoma": "Gebouwd met macOS Sonoma, voor macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "macOS integratie.",
+            "description": "Drag-n-drop? Terminal integratie? Native logboekregistratie? Wij hebben het.",
+            "alt": "Drag-n-drop GPTK installatie"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Debuggen is eenvoudig.",
+            "description": "Maak verbinding met Xcode en maak GPU captures zonder gedoe.",
+            "alt": "Xcode GPU capture"
         }
     }
 }
