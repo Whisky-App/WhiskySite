@@ -7,48 +7,48 @@
     },
     "splash": {
         "title": "参与Mac游戏变革",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "subtitle": "利用Whisky轻松体验最新游戏",
+        "latest-release": "下载最新版",
+        "all-releases": "查看所有版本",
+        "icon-alt": "Whisky 徽标"
     },
     "wine": {
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "绝顶支持",
+        "subtitle": "由苹果游戏移植工具提供支持"
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "并且列表内容不断增加"
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "安装无需终端",
+            "description": "没有终端使用经验？没问题，Whisky让安装轻车熟路。",
+            "alt": "安装向导"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "预制工具。",
+            "description": "无需等待 GPTK 数小时的编译时间。开始安装 Whisky ，几分钟后就开始游戏。",
+            "alt": "Wine 下载器"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast loading utopia.",
-            "alt": "Bottle Config",
+            "title": "熟悉的设计",
+            "description": "从零打造的macOS原生界面，宾至如归，加载如燕。",
+            "alt": "Bottle设置",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languges.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "原生界面，原生速度，没有Electron的迟滞。",
+                "localised": "支持17种不同语言界面显示。",
+                "responsive": "反应灵敏稳定。",
+                "sonoma": "基于 macOS Sonoma，为macOS Sonoma 构建。"
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "macOS 集成",
+            "description": "拖放？终端集成？原生日志？我们全都搞定。",
+            "alt": "拖放安装苹果游戏支持工具GPTK"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
+            "title": "调试变得容易。",
+            "description": "连接到 Xcode ，获取GPU captures，没有繁文缛节。",
             "alt": "Xcode GPU Capture"
         }
     }
