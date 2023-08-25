@@ -1,8 +1,8 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
+        "discord": "Whisky's Discordに参加する",
+        "github": "WhiskyのGitHubに行く",
+        "light": "ライトテーマに切り替える",
         "dark": "Switch to dark theme"
     },
     "splash": {
