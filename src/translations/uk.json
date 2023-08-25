@@ -32,11 +32,11 @@
         },
         "design": {
             "title": "Знайомий дизайн.",
-            "description": "Власний користувальницький інтерфейс, створений з нуля для macOS. Відчуйте себе як удома в цій утопії із закругленими кутами, яка швидко завантажується.",
+            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
             "alt": "Конфігурація Bottle",
             "list": {
                 "native": "Рідний UI. Нативні швидкості. Немає уповільнення електронів.",
-                "localised": "Локалізовано 17 різними мовами.",
+                "localised": "Localised in 17 different languages.",
                 "responsive": "Чуйний та надійний.",
                 "sonoma": "Створено на macOS Sonoma для macOS Sonoma."
             }
