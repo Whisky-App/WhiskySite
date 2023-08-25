@@ -1,16 +1,16 @@
 {
     "header": {
         "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme"
+        "github": "Ir para o GitHub do Whisky",
+        "light": "Mudar para o tema claro",
+        "dark": "Mudar para o tema escuro"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
+        "title": "Junte-se à revolução dos jogos no Mac.",
+        "subtitle": "Jogue os títulos mais recentes facilmente com Whisky.",
+        "latest-release": "Baixar última versão",
         "all-releases": "Ver todas as versões",
-        "icon-alt": "Whisky Logo"
+        "icon-alt": "Logo do Whisky"
     },
     "wine": {
         "supercharged": "Supercharged...",
