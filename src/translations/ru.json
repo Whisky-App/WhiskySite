@@ -35,24 +35,24 @@
         },
         "design": {
             "title": "Знакомый дизайн.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
+            "description": "Нативный UI созданный с нуля для macOS. Чувствуйте себя как дома в этой утопии с закругленными углами и быстрой загрузкой.",
             "alt": "Конфигурация Bottle",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
+                "native": "Родной интерфейс. Нативная скорость. Без замедлений.",
                 "localised": "Переведен на 17 различных языков.",
                 "responsive": "Отзывчивый и надежный.",
                 "sonoma": "Разработан на macOS Sonoma для macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Интеграция терминала? Нативное логирование? У нас это есть.",
+            "title": "интеграция с macOS.",
+            "description": "Drag-n-drop? Интеграция с терминалом? Нативное логирование? У нас это есть.",
             "alt": "Установщик GPTK с функцией перетягивания"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Легкая отладка.",
+            "description": "Подключись к Xcode и сделай захват GPU без проблем.",
+            "alt": "Захват данных видеокарты с помощью Xcode"
         }
     }
 }
