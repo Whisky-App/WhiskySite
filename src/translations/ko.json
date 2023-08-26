@@ -4,8 +4,8 @@
         "github": "Whisky GitHub로 가기",
         "light": "밝은 테마로 전환",
         "dark": "어두운 테마로 전환",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "SwiftUI로 만들어진 macOS용 최신 Wine 래퍼",
+        "embed": "Whisky로 당신의 Mac에서 최신 DirectX 12 타이틀을 손쉽게 즐기세요!"
     },
     "splash": {
         "title": "Mac 게이밍의 혁신에 참여하세요.",
@@ -15,8 +15,8 @@
         "icon-alt": "Whisky 로고"
     },
     "wine": {
-        "wine": "Wine",
-        "supercharged": "Supercharged...",
+        "wine": "Wine을",
+        "supercharged": "더욱 강력하게.",
         "subtitle": "Apple의 Game Porting Toolkit과 함께."
     },
     "marquee": {
