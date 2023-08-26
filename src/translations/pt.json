@@ -4,8 +4,8 @@
         "github": "Ir para o GitHub do Whisky",
         "light": "Mudar para tema claro",
         "dark": "Mudar para tema escuro",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "Um wrapper de Wine moderno para macOS construído com SwiftUI",
+        "embed": "Corre os títulos de DirectX 12 mais recentes sem esforço no seu Mac com Whisky!"
     },
     "splash": {
         "title": "Junta-te à revolução de gaming no Mac.",
