@@ -1,26 +1,26 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "discord": "Gia nhập kênh Discord của Whisky",
+        "github": "Đi đến Github của Whisky",
+        "light": "Chuyển sang giao diện Sáng",
+        "dark": "Chuyển sang giao diện Tối",
+        "description": "Một phiên bản Wine hiện đại cho macOS được xây dựng bằng SwiftUI",
+        "embed": "Chạy phiên bản mới nhất của DirectX 12 một cách dễ dàng trên Mac của bạn với Whisky!"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "title": "Gia nhập cuộc cách mạng game trên Mac.",
+        "subtitle": "Trải nghiệm những trò chơi mới nhất một cách dễ dàng với Whisky.",
+        "latest-release": "Tải phiên bản mới nhất",
+        "all-releases": "Xem tất cả các phiên bản",
+        "icon-alt": "Logo của Whisky"
     },
     "wine": {
         "wine": "Wine",
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Siêu nạp...",
+        "subtitle": "với sức mạnh của Game Porting Toolkit của Apple."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "và danh sách vẫn đang được bổ sung..."
     },
     "bento": {
         "setup": {
