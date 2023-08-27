@@ -4,8 +4,8 @@
         "github": "Ir para o GitHub do Whisky",
         "light": "Mudar para tema claro",
         "dark": "Mudar para tema escuro",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "Um wrapper de Wine moderno para macOS construído com SwiftUI",
+        "embed": "Corre os títulos de DirectX 12 mais recentes sem esforço no seu Mac com Whisky!"
     },
     "splash": {
         "title": "Junta-te à revolução de gaming no Mac.",
@@ -17,7 +17,7 @@
     "wine": {
         "wine": "Wine",
         "supercharged": "Mais potente e rápido...",
-        "subtitle": "com o poder do kit de ferramentas de portabilidade de jogos da Apple."
+        "subtitle": "com o poder do Game Porting Toolkit da Apple."
     },
     "marquee": {
         "growing": "e a lista está sempre a crescer..."
@@ -38,19 +38,19 @@
             "description": "Interface com o utilizador nativa construída a partir do zero para macOS. Vais sentir-te em casa neste sonho bem elaborado e de carregamento rápido.",
             "alt": "Configuração do Bottle",
             "list": {
-                "native": "Interface com o utilizador nativa. Velocidade nativa. Sem desaceleração causada pelo uso de Electron.",
+                "native": "UI nativa. Velocidade nativa. Sem lentidão do Electron.",
                 "localised": "Disponível em 17 línguas.",
-                "responsive": "Rápido a reagir e robusto.",
+                "responsive": "Responsivo e robusto.",
                 "sonoma": "Desenvolvido no macOS Sonoma para o macOS Sonoma."
             }
         },
         "integration": {
             "title": "Integração com macOS.",
-            "description": "Drag-n-drop (arrastar e largar)? Integração com o terminal? Logging nativo? Temos o que precisas.",
-            "alt": "Faz Drag-n-Drop (arrastar e largar) do Instalador do GPTK"
+            "description": "Arrastar e largar? Integração com o terminal? Logging nativo? Temos o que precisas.",
+            "alt": "Arrasta e larga o Instalador do GPTK"
         },
         "debugging": {
-            "title": "Correção de erros fácil.",
+            "title": "Debugging feito facil.",
             "description": "Liga-te usando o Xcode e faz capturas da GPU sem a confusão toda.",
             "alt": "Captura de GPU com o Xcode"
         }

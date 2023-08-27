@@ -1,22 +1,22 @@
 {
     "header": {
-        "discord": "Whisky Discord 참여하기",
-        "github": "Whisky GitHub로 가기",
-        "light": "밝은 테마로 전환",
-        "dark": "어두운 테마로 전환",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "discord": "Whisky Discord 참여",
+        "github": "Whisky GitHub 방문",
+        "light": "라이트 모드",
+        "dark": "다크 모드",
+        "description": "SwiftUI로 만들어진 macOS용 최신 Wine 래퍼",
+        "embed": "Whisky로 당신의 Mac에서 최신 DirectX 12 게임을 즐기세요!"
     },
     "splash": {
         "title": "Mac 게이밍의 혁신에 참여하세요.",
-        "subtitle": "Whisky로 최신 타이틀을 손쉽게 경험하세요.",
+        "subtitle": "Whisky로 최신 게임을 손쉽게 경험하세요.",
         "latest-release": "최신 버전 다운로드",
         "all-releases": "모든 릴리스 보기",
         "icon-alt": "Whisky 로고"
     },
     "wine": {
-        "wine": "Wine",
-        "supercharged": "Supercharged...",
+        "wine": "Wine을",
+        "supercharged": "더욱 강력하게.",
         "subtitle": "Apple의 Game Porting Toolkit과 함께."
     },
     "marquee": {

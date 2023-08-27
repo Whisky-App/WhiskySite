@@ -4,8 +4,8 @@
         "github": "Zum Whisky's GitHub",
         "light": "Helles Thema aktivieren",
         "dark": "Dunkles Thema aktivieren",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "Ein moderner Wine-Wrapper für MacOS in SwiftUI",
+        "embed": "Führen Sie mit Whisky die neuesten DirectX 12 Titel mühelos auf Ihrem Mac aus!"
     },
     "splash": {
         "title": "Treten Sie der macOS Gaming Revolution bei.",
@@ -30,7 +30,7 @@
         },
         "tools": {
             "title": "Vorgefertigte Werkzeuge.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
+            "description": "Warten Sie keine Stunden, bis GPTK kompiliert ist. Installieren Sie Whisky und spielen Sie in wenigen Minuten.",
             "alt": "Wine Downloader"
         },
         "design": {
