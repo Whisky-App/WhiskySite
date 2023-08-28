@@ -1,9 +1,9 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
+        "discord": "Dołącz do Discorda Whisky",
         "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme",
+        "light": "Przełącz na jasny motyw",
+        "dark": "Przełącz na ciemny motyw",
         "description": "A modern Wine wrapper for macOS built with SwiftUI",
         "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
     },
