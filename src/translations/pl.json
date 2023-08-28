@@ -9,7 +9,7 @@
     },
     "splash": {
         "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
+        "subtitle": "Graj w najnowsze tytuły bez wysiłku dzięki Whisky.",
         "latest-release": "Pobierz najnowsze",
         "all-releases": "Zobacz wszystkie wydania",
         "icon-alt": "Logo Whisky"
@@ -35,10 +35,10 @@
         },
         "design": {
             "title": "Znajomy design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
+            "description": "Natywny interfejs zbudowany od podstaw dla macOS. Dzięki zaokrąglonym rogom i szybkiemu wczytywaniu poczujesz się jak w domu.",
             "alt": "Konfiguracja butelki",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
+                "native": "Natywny interfejs. Natywna szybkość. Bez zamulającego Electrona.",
                 "localised": "Dostępny w 17 językach.",
                 "responsive": "Responsywny i solidny.",
                 "sonoma": "Stworzony na macOS Sonoma dla macOS Sonoma."
@@ -51,7 +51,7 @@
         },
         "debugging": {
             "title": "Ułatwione debugowanie.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
+            "description": "Połącz się z Xcode i korzystaj z GPU Capture bez utrudnień.",
             "alt": "GPU Capture w Xcode"
         }
     }
