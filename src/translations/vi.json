@@ -1,57 +1,57 @@
 {
     "header": {
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "discord": "Gia nhập kênh Discord của Whisky",
+        "github": "Đi đến Github của Whisky",
+        "light": "Chuyển sang giao diện Sáng",
+        "dark": "Chuyển sang giao diện Tối",
+        "description": "Một phiên bản Wine hiện đại cho macOS được xây dựng bằng SwiftUI",
+        "embed": "Chạy phiên bản mới nhất của DirectX 12 một cách dễ dàng trên Mac của bạn với Whisky!"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
-        "icon-alt": "Whisky Logo"
+        "title": "Gia nhập cuộc cách mạng game trên Mac.",
+        "subtitle": "Trải nghiệm những trò chơi mới nhất một cách dễ dàng với Whisky.",
+        "latest-release": "Tải phiên bản mới nhất",
+        "all-releases": "Xem tất cả các phiên bản",
+        "icon-alt": "Logo của Whisky"
     },
     "wine": {
         "wine": "Wine",
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Siêu nạp...",
+        "subtitle": "với sức mạnh của Game Porting Toolkit của Apple."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "và danh sách vẫn đang được bổ sung..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Không cần terminal để thiết lập.",
+            "description": "Không có kinh nghiệm dùng Terminal? Không sao. Whisky khiến việc cài đặt đơn giản và dễ để theo kịp.",
+            "alt": "Trình cài đặt"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "Những công cụ có sẵn.",
+            "description": "Đừng chờ thời gian dài để GPTK thiết lập. Cài đặt Whisky để chơi game chỉ trong vài phút.",
+            "alt": "Trình tải xuống Wine"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Thiết kế quen thuộc.",
+            "description": "UI được xây dựng dành riêng cho macOS. Cảm thấy quen thuộc với sự bo tròn, tốc độ xử lý nhanh không tưởng.",
+            "alt": "Cài đặt Bottle",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 17 different languages.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "UI dành riêng. Giữ nguyên tốc độ. Không bị làm chậm bởi bất cứ tiến trình nào.",
+                "localised": "Hỗ trợ 17 ngôn ngữ khác nhau.",
+                "responsive": "Mượt mà và mạnh mẽ.",
+                "sonoma": "Được xây dựng trên macOS Sonoma để dành cho macOS Sonoma."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "tích hợp trong macOS.",
+            "description": "Kéo và thả? Tích hợp Terminal? Log thời gian thực? Chúng tôi đều có.",
+            "alt": "Kéo và thả Trình cài đặt GPTK"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
+            "title": "Gỡ lỗi được đơn giản hoá.",
+            "description": "Kết nối với Xcode và khiến GPU xử lý mà không mất thời gian.",
             "alt": "Xcode GPU Capture"
         }
     }
