@@ -13,7 +13,7 @@
     "i18n:extract:keys": "astro-i18n extract:keys"
   },
   "dependencies": {
-    "astro": "^3.0.8",
+    "astro": "^3.0.13",
     "astro-i18n": "^1.8.1"
   },
   "devDependencies": {
