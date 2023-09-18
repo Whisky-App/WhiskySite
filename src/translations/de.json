@@ -1,15 +1,15 @@
 {
     "header": {
-        "discord": "Trete Whisky's Discord bei",
-        "github": "Zum Whisky's GitHub",
-        "light": "Helles Thema aktivieren",
-        "dark": "Dunkles Thema aktivieren",
-        "description": "Ein moderner Wine-Wrapper für MacOS in SwiftUI",
-        "embed": "Führen Sie mit Whisky die neuesten DirectX 12 Titel mühelos auf Ihrem Mac aus!"
+        "discord": "Tritt Whiskys Discord bei",
+        "github": "Zu Whisky auf GitHub",
+        "light": "Helles Erscheinungsbild aktivieren",
+        "dark": "Dunkles Erscheinungsbild aktivieren",
+        "description": "Ein moderner Wine-Wrapper für macOS auf SwiftUI-Basis",
+        "embed": "Führe mit Whisky die neuesten DirectX 12 Titel mühelos auf deinem Mac aus!"
     },
     "splash": {
-        "title": "Treten Sie der macOS Gaming Revolution bei.",
-        "subtitle": "Erleben Sie die neuesten Titel mühelos mit Whisky.",
+        "title": "Tritt der macOS Gaming-Revolution bei.",
+        "subtitle": "Erlebe die neuesten Titel mühelos mit Whisky.",
         "latest-release": "Neuste Version laden",
         "all-releases": "Alle Versionen ansehen",
         "icon-alt": "Whisky Logo"
@@ -17,42 +17,42 @@
     "wine": {
         "wine": "Wine",
         "supercharged": "Supercharged...",
-        "subtitle": "mit der Kraft von Apple's Game Porting Toolkit."
+        "subtitle": "mit der Power von Apples Game Porting Toolkit."
     },
     "marquee": {
-        "growing": "und die Liste wächst immer größer..."
+        "growing": "und die Liste wird immer länger..."
     },
     "bento": {
         "setup": {
-            "title": "Kein Terminal Einrichtung.",
-            "description": "Kein Terminal Erlebnis? Kein Problem. Whisky macht Einrichten einfach.",
+            "title": "Keine Terminal-Einrichtung notwendig.",
+            "description": "Keine Terminal-Erfahrung? Kein Problem. Whisky macht das Einrichten leicht und verständlich.",
             "alt": "Einrichtungsassistent"
         },
         "tools": {
             "title": "Vorgefertigte Werkzeuge.",
-            "description": "Warten Sie keine Stunden, bis GPTK kompiliert ist. Installieren Sie Whisky und spielen Sie in wenigen Minuten.",
-            "alt": "Wine Downloader"
+            "description": "Warte nicht stundenlang, um GPTK zu kompilieren. Installiere Whisky, und spiele in wenigen Minuten los!",
+            "alt": "Wine-Downloader"
         },
         "design": {
             "title": "Bekanntes Design.",
-            "description": "Native UI von Grund auf für macOS. Fühlen Sie sich zu Hause in dieser abgerundeten Ecke, schnell ladende Utopie.",
-            "alt": "Bottle Konfiguration",
+            "description": "Von Grund auf mit nativem UI für macOS versehen. Fühl dich in dieser schnell ladenden Utopie der abgerundeten Ecken sofort zu Hause.",
+            "alt": "Bottle-Konfiguration",
             "list": {
-                "native": "Native Benutzeroberfläche. Native Geschwindigkeiten. Kein Electron Langsamkeit.",
-                "localised": "Lokalisiert in 17 verschiedene Sprachen.",
-                "responsive": "Reaktionsfähig und robust.",
-                "sonoma": "Erstellt auf macOS Sonoma für macOS Sonoma."
+                "native": "Native Benutzeroberfläche. Native Geschwindigkeit statt Electron-Langsamkeit.",
+                "localised": "Verfügbar in 17 verschiedenen Sprachen.",
+                "responsive": "Robust und mit flüssigem UI.",
+                "sonoma": "Erstellt unter macOS Sonoma für macOS Sonoma."
             }
         },
         "integration": {
             "title": "macOS Integration.",
-            "description": "Drag-n-Drop? Terminal Integration? Native Logging? Wir haben es.",
-            "alt": "Drag & Drop GPTK Installer"
+            "description": "Drag & Drop? Terminal -Integration? Natives Logging? Alles vorhanden.",
+            "alt": "Drag & Drop GPTK-Installer"
         },
         "debugging": {
             "title": "Debugging einfach gemacht.",
-            "description": "Verbinden Sie Whisky mit Xcode für GPU Aufnahmen ohne Arbeit.",
-            "alt": "Xcode GPU Aufnahme"
+            "description": "Verbinde Whisky mit Xcode und erstelle GPU-Aufzeichnungen ohne großen Aufwand.",
+            "alt": "Xcode GPU-Aufzeichnung"
         }
     }
 }
