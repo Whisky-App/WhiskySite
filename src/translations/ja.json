@@ -3,50 +3,50 @@
         "discord": "Whisky の Discord に参加する",
         "github": "Whisky の GitHub にアクセスする",
         "light": "ライトテーマに切り替える",
-        "dark": "暗いテーマに切り替える",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "dark": "ダークテーマに切り替える",
+        "description": "SwiftUIによって作成されたmacOS用の新しいWineラッパー",
+        "embed": "Whiskyを使ってMacで最新のDirectX 12タイトルを手間なく実行しよう！"
     },
     "splash": {
-        "title": "Mac ゲーム革命に参加しましょう。",
+        "title": "Macのゲーム革命に乗ろう",
         "subtitle": "Whisky で最新タイトルを簡単に体験できます。",
-        "latest-release": "最新のダウンロード",
+        "latest-release": "最新版のダウンロード",
         "all-releases": "すべてのリリースを見る",
-        "icon-alt": "ウイスキーのロゴ"
+        "icon-alt": "Whiskyのロゴ"
     },
     "wine": {
-        "wine": "Wine",
-        "supercharged": "スーパーチャージされた...",
+        "wine": "Wineが",
+        "supercharged": "驚異的に。",
         "subtitle": "Apple Game Porting Toolkit の力を借りて。"
     },
     "marquee": {
-        "growing": "そしてリストは常に増え続けています..."
+        "growing": "そしてタイトルは今も増え続けています。"
     },
     "bento": {
         "setup": {
-            "title": "端末設定不要。",
-            "description": "端末の経験がありませんか？ 問題ない。 Whisky を使用すると、セットアップが不要になり、従うのが簡単になります。",
+            "title": "ターミナルでのセットアップなし。",
+            "description": "ターミナル経験がなくても大丈夫。 Whisky上でセットアップを行うので、分かりやすくなっています。",
             "alt": "セットアップウィザード"
         },
         "tools": {
             "title": "事前に構築されたツール。",
             "description": "GPTK がコンパイルされるまで何時間も待つ必要はありません。 Whisky のインストールから数分でゲームを開始できます。",
-            "alt": "ワイン ダウンローダ"
+            "alt": "Wineダウンローダ"
         },
         "design": {
             "title": "おなじみのデザイン。",
-            "description": "MacOS 用にゼロから構築されたネイティブ UI。 この角の丸い、読み込みの速い理想郷で、まるで家にいるような気分になれます。",
+            "description": "macOSにマッチするようにゼロから構築されたネイティブなUI。 角丸で、読み込みの速い理想郷です。",
             "alt": "ボトル構成",
             "list": {
-                "native": "ネイティブUI。 ネイティブのスピード。 電子の減速なし。",
+                "native": "ネイティブなUI。 ネイティブな速度。 Electronでも遅くならない。",
                 "localised": "17 か国語にローカライズされています。",
                 "responsive": "応答性と堅牢性。",
-                "sonoma": "MacOS Sonoma のために macOS Sonoma 上に構築されています。"
+                "sonoma": "macOS Sonoma のために macOS Sonoma で作成しています。"
             }
         },
         "integration": {
             "title": "macOSの統合。",
-            "description": "ドラッグアンドドロップ? 端末統合？ ネイティブロギング？ 我々はそれを持っています。",
+            "description": "ドラッグアンドドロップ？ ターミナル統合？ ネイティブロギング？ あります。",
             "alt": "ドラッグアンドドロップ GPTK インストーラー"
         },
         "debugging": {
