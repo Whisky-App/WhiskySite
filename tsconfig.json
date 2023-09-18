@@ -1,6 +1,7 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "./node_modules/astro/tsconfigs/strict.json",
   "compilerOptions": {
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "types": ["bun-types"]
   }
 }
