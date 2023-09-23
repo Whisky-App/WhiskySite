@@ -35,23 +35,23 @@
         },
         "design": {
             "title": "친숙한 디자인",
-            "description": "처음부터 macOS용으로 제작된 기본 UI. 빠르고 잘 디자인된 앱으로 편안함을 느껴 보세요.",
+            "description": "처음부터 macOS용으로 제작된 네이티브 UI. 빠르고 세련된 앱으로 편안함을 느껴 보세요.",
             "alt": "Bottle 설정",
             "list": {
                 "native": "네이티브 UI. 네이티브 속도. Electron 사용으로 인한 속도 저하가 없습니다.",
                 "localised": "17개 언어로 번역되었습니다.",
                 "responsive": "반응성이 뛰어나고 견고합니다.",
-                "sonoma": "macOS Sonoma에서 macOS Sonoma를 위해 빌드되었습니다."
+                "sonoma": "macOS Sonoma에서, macOS Sonoma를 위한 빌드."
             }
         },
         "integration": {
-            "title": "macOS 통합",
-            "description": "드래그 앤 드롭? 터미널 통합? 네이티브 로깅? 저희가 해드립니다.",
-            "alt": "드래그 앤 드롭 GPTK 설치 도구"
+            "title": "macOS 연동",
+            "description": "드래그 앤 드롭? 터미널 연동? 네이티브 로깅? 저희가 해드립니다.",
+            "alt": "드래그 앤 드롭 GPTK 설치 관리자"
         },
         "debugging": {
             "title": "쉬운 디버깅",
-            "description": "Xcode에 연결하여 번거로운 과정 없이 GPU 캡처를 할 수 있습니다.",
+            "description": "번거로운 과정 없이 Xcode에 연결하여 GPU 캡처를 할 수 있습니다.",
             "alt": "Xcode GPU 캡처"
         }
     }
