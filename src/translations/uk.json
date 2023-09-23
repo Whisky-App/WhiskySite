@@ -1,14 +1,14 @@
 {
     "header": {
-        "discord": "Приєднатися до Whiski Discord",
-        "github": "Перейти на Whisky GitHub",
+        "discord": "Приєднайтесь до Discord серверу Whisky",
+        "github": "Перейти до GitHub сторінки Whisky",
         "light": "Встановити світлу тему",
-        "dark": "Увімкнути темну тему",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "dark": "Встановити темну тему",
+        "description": "Сучасна обгортка Wine для macOS, створена за допомогою SwiftUI",
+        "embed": "Запустіть найновіші проєкти на DirectX 12 без особливих зусиль на вашому Mac з Whisky!"
     },
     "splash": {
-        "title": "Приєднуйтесь до революції комп'ютерних ігор на Mac.",
+        "title": "Приєднуйтесь до ігрової революції на Mac.",
         "subtitle": "Відчуйте останні назви без зусиль з Whisky.",
         "latest-release": "Завантажити останню версію",
         "all-releases": "Переглянути всі випуски",
