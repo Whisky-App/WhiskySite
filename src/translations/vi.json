@@ -5,18 +5,18 @@
         "light": "Chuyển sang giao diện Sáng",
         "dark": "Chuyển sang giao diện Tối",
         "description": "Một phiên bản Wine hiện đại cho macOS được xây dựng bằng SwiftUI",
-        "embed": "Chạy phiên bản mới nhất của DirectX 12 một cách dễ dàng trên Mac của bạn với Whisky!"
+        "embed": "Chạy DirectX 12 một cách dễ dàng trên Mac của bạn với Whisky!"
     },
     "splash": {
-        "title": "Gia nhập cuộc cách mạng game trên Mac.",
+        "title": "Gia nhập cuộc cách mạng gaming trên máy Mac.",
         "subtitle": "Trải nghiệm những trò chơi mới nhất một cách dễ dàng với Whisky.",
-        "latest-release": "Tải phiên bản mới nhất",
+        "latest-release": "Tải về phiên bản mới nhất",
         "all-releases": "Xem tất cả các phiên bản",
         "icon-alt": "Logo của Whisky"
     },
     "wine": {
         "wine": "Wine",
-        "supercharged": "Siêu nạp...",
+        "supercharged": "Siêu mạnh mẽ...",
         "subtitle": "với sức mạnh của Game Porting Toolkit của Apple."
     },
     "marquee": {
@@ -30,7 +30,7 @@
         },
         "tools": {
             "title": "Những công cụ có sẵn.",
-            "description": "Đừng chờ thời gian dài để GPTK thiết lập. Cài đặt Whisky để chơi game chỉ trong vài phút.",
+            "description": "Không cần phải đợi hàng giờ để thiết lập GPTK. Cài đặt Whisky để chơi game chỉ trong vài phút.",
             "alt": "Trình tải xuống Wine"
         },
         "design": {
@@ -38,7 +38,7 @@
             "description": "UI được xây dựng dành riêng cho macOS. Cảm thấy quen thuộc với sự bo tròn, tốc độ xử lý nhanh không tưởng.",
             "alt": "Cài đặt Bottle",
             "list": {
-                "native": "UI dành riêng. Giữ nguyên tốc độ. Không bị làm chậm bởi bất cứ tiến trình nào.",
+                "native": "UI nguyên bản. Tốc độ nguyên bản. Không bị làm chậm bởi bất cứ tiến trình nào.",
                 "localised": "Hỗ trợ 17 ngôn ngữ khác nhau.",
                 "responsive": "Mượt mà và mạnh mẽ.",
                 "sonoma": "Được xây dựng trên macOS Sonoma để dành cho macOS Sonoma."
