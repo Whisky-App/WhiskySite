@@ -1,16 +1,16 @@
 {
     "header": {
-        "discord": "Tritt Whiskys Discord bei",
+        "discord": "Trete Whisky's Discord bei",
         "github": "Zu Whisky auf GitHub",
-        "light": "Helles Erscheinungsbild aktivieren",
-        "dark": "Dunkles Erscheinungsbild aktivieren",
+        "light": "Helles Thema aktivieren",
+        "dark": "Dunkles Thema aktivieren",
         "description": "Ein moderner Wine-Wrapper für macOS auf SwiftUI-Basis",
         "embed": "Führe mit Whisky die neuesten DirectX 12 Titel mühelos auf deinem Mac aus!"
     },
     "splash": {
-        "title": "Tritt der macOS Gaming-Revolution bei.",
+        "title": "Trete der macOS Gaming Revolution bei.",
         "subtitle": "Erlebe die neuesten Titel mühelos mit Whisky.",
-        "latest-release": "Neuste Version laden",
+        "latest-release": "Neuste Version herunterladen",
         "all-releases": "Alle Versionen ansehen",
         "icon-alt": "Whisky Logo"
     },
@@ -30,13 +30,13 @@
         },
         "tools": {
             "title": "Vorgefertigte Werkzeuge.",
-            "description": "Warte nicht stundenlang, um GPTK zu kompilieren. Installiere Whisky, und spiele in wenigen Minuten los!",
-            "alt": "Wine-Downloader"
+            "description": "Warten Sie keine Stunden, bis GPTK kompiliert ist. Installieren Sie Whisky und spielen Sie in wenigen Minuten.",
+            "alt": "Wine Downloader"
         },
         "design": {
             "title": "Bekanntes Design.",
             "description": "Von Grund auf mit nativem UI für macOS versehen. Fühl dich in dieser schnell ladenden Utopie der abgerundeten Ecken sofort zu Hause.",
-            "alt": "Bottle-Konfiguration",
+            "alt": "Bottle Konfiguration",
             "list": {
                 "native": "Native Benutzeroberfläche. Native Geschwindigkeit statt Electron-Langsamkeit.",
                 "localised": "Verfügbar in 17 verschiedenen Sprachen.",
@@ -46,13 +46,13 @@
         },
         "integration": {
             "title": "macOS Integration.",
-            "description": "Drag & Drop? Terminal -Integration? Natives Logging? Alles vorhanden.",
-            "alt": "Drag & Drop GPTK-Installer"
+            "description": "Drag-n-Drop? Terminal Integration? Native Logging? Wir haben es.",
+            "alt": "Drag & Drop GPTK Installer"
         },
         "debugging": {
             "title": "Debugging einfach gemacht.",
             "description": "Verbinde Whisky mit Xcode und erstelle GPU-Aufzeichnungen ohne großen Aufwand.",
-            "alt": "Xcode GPU-Aufzeichnung"
+            "alt": "Xcode GPU Aufnahme"
         }
     }
 }
