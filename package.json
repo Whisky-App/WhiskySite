@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "astro": "^3.0.8",
-    "astro-i18n": "^1.8.1"
+    "astro-i18n": "^2.1.18"
   },
   "devDependencies": {
-    "@unocss/reset": "^0.55.7",
-    "unocss": "^0.55.7"
+    "@unocss/reset": "^0.57.0",
+    "unocss": "^0.57.0"
   }
 }
