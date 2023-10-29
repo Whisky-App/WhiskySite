@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "astro": "^3.4.0",
-    "astro-i18n": "^1.8.1",
+    "astro-i18n": "^2.1.18",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
