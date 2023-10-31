@@ -5,7 +5,7 @@
 
 // ###> astro-i18n/type-generation ###
 type PrimaryLocale = "en"
-type SecondaryLocale = "da"|"de"|"es"|"fi"|"fr"|"it"|"ja"|"ko"|"nl"|"pl"|"pt-BR"|"ru"|"uk"|"vi"|"pt"|"tr"|"zh-Hans"|"zh-Hant"
+type SecondaryLocale = "de"|"es"|"fi"|"fr"|"it"|"ja"|"ko"|"nl"|"pl"|"pt-BR"|"ru"|"uk"|"vi"|"pt"|"zh-Hans"|"zh-Hant"
 type Locale = PrimaryLocale | SecondaryLocale
 type RouteParameters = {"/":undefined;}
 type Route = keyof RouteParameters
