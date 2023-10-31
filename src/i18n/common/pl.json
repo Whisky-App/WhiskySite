@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Dołącz do Discorda Whisky",
+        "github": "Odwiedź Whisky na GitHubie",
+        "light": "Przełącz na jasny motyw",
+        "dark": "Przełącz na ciemny motyw",
+        "description": "Nowoczesny wrapper Wine na macOS, stworzony przy użyciu SwiftUI",
+        "embed": "Uruchamiaj na swoim Macu najnowsze tytuły z DirectX 12 bez wysiłku dzięki Whisky!"
+    },
+    "splash": {
+        "title": "Dołącz do rewolucji gamingu na Macu.",
+        "subtitle": "Graj w najnowsze tytuły bez wysiłku dzięki Whisky.",
+        "latest-release": "Pobierz najnowsze",
+        "all-releases": "Zobacz wszystkie wydania",
+        "icon-alt": "Logo Whisky"
+    },
+    "wine": {
+        "wine": "Wine",
+        "supercharged": "Turbodopalany...",
+        "subtitle": "mocą Game Porting Toolkit od Apple."
+    },
+    "marquee": {
+        "growing": "a lista ciągle rośnie..."
+    },
+    "bento": {
+        "setup": {
+            "title": "Instalacja bez użycia terminala.",
+            "description": "Brak doświadczenia z terminalem? Żaden problem. Whisky sprawia, że konfiguracja jest bezproblemowa.",
+            "alt": "Kreator instalacji"
+        },
+        "tools": {
+            "title": "Prekompilowane narzędzia.",
+            "description": "Nie czekaj godzinami na kompilację GPTK. Zainstaluj Whisky i graj w ciągu kilku minut.",
+            "alt": "Pobieranie Wine"
+        },
+        "design": {
+            "title": "Znajomy design.",
+            "description": "Natywny interfejs zbudowany od podstaw dla macOS. Dzięki zaokrąglonym rogom i szybkiemu wczytywaniu poczujesz się jak w domu.",
+            "alt": "Konfiguracja butelki",
+            "list": {
+                "native": "Natywny interfejs. Natywna szybkość. Bez zamulającego Electrona.",
+                "localised": "Dostępny w 17 językach.",
+                "responsive": "Responsywny i solidny.",
+                "sonoma": "Stworzony na macOS Sonoma dla macOS Sonoma."
+            }
+        },
+        "integration": {
+            "title": "Integracja z macOS.",
+            "description": "Przeciągnij i upuść? Integracja z terminalem? Natywne logowanie? Załatwione.",
+            "alt": "Instalator GPTK typu przeciągnij i upuść"
+        },
+        "debugging": {
+            "title": "Ułatwione debugowanie.",
+            "description": "Połącz się z Xcode i korzystaj z GPU Capture bez utrudnień.",
+            "alt": "GPU Capture w Xcode"
+        }
+    }
+}
