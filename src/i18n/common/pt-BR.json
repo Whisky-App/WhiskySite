@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Junte-se ao Discord do Whisky",
+        "github": "Ir para o GitHub do Whisky",
+        "light": "Trocar para o tema claro",
+        "dark": "Trocar para o tema escuro",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+    },
+    "splash": {
+        "title": "Junte-se à revolução dos jogos no Mac.",
+        "subtitle": "Jogue títulos recentes facilmente com Whisky.",
+        "latest-release": "Baixar versão mais recente",
+        "all-releases": "Ver todas as versões",
+        "icon-alt": "Logo do Whisky"
+    },
+    "wine": {
+        "wine": "Wine",
+        "supercharged": "Mais potente e rápido...",
+        "subtitle": "Com o poder do Game Porting Toolkit da Apple."
+    },
+    "marquee": {
+        "growing": "e a lista está sempre crescendo..."
+    },
+    "bento": {
+        "setup": {
+            "title": "Sem precisar abrir o terminal.",
+            "description": "Sem experiência no terminal? Sem problema. Configurar o Whisky é simples e sem esforço.",
+            "alt": "Assistente de Configuração"
+        },
+        "tools": {
+            "title": "Ferramentas compiladas.",
+            "description": "Não espere horas para que o GPTK seja compilado. Comece a jogar em minutos após instalar o Whisky.",
+            "alt": "Instalador do Wine"
+        },
+        "design": {
+            "title": "Design familiar.",
+            "description": "UI nativa e construída do zero para macOS. Sinta-se em casa em um aplicativo rápido e bem projetado.",
+            "alt": "Configuração do Bottle",
+            "list": {
+                "native": "Interface e velocidade nativa. Sem a lentidão do Electron.",
+                "localised": "Localizado em 17 idiomas diferentes.",
+                "responsive": "Responsivo e robusto.",
+                "sonoma": "Desenvolvido no macOS Sonoma para o macOS Sonoma."
+            }
+        },
+        "integration": {
+            "title": "Integração com macOS.",
+            "description": "Arrastar e soltar? Integração com o terminal? Registro nativo? Nós temos.",
+            "alt": "Instale o GPTK arrastando e soltando"
+        },
+        "debugging": {
+            "title": "Fácil de debugar.",
+            "description": "Conecte-se com Xcode e faça capturas da GPU sem o esforço.",
+            "alt": "Captura da GPU com Xcode"
+        }
+    }
+}
