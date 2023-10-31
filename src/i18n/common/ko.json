@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Whisky Discord 참여",
+        "github": "Whisky GitHub 방문",
+        "light": "라이트 모드",
+        "dark": "다크 모드",
+        "description": "SwiftUI로 만들어진 macOS용 최신 Wine 래퍼",
+        "embed": "Whisky로 당신의 Mac에서 최신 DirectX 12 게임을 즐기세요!"
+    },
+    "splash": {
+        "title": "Mac 게이밍의 혁신에 참여하세요.",
+        "subtitle": "Whisky로 최신 게임을 손쉽게 경험하세요.",
+        "latest-release": "최신 버전 다운로드",
+        "all-releases": "모든 릴리스 보기",
+        "icon-alt": "Whisky 로고"
+    },
+    "wine": {
+        "wine": "Wine을",
+        "supercharged": "더욱 강력하게.",
+        "subtitle": "Apple의 Game Porting Toolkit과 함께."
+    },
+    "marquee": {
+        "growing": "뿐만이 아니라 목록은 끊임없이 늘어나고 있습니다..."
+    },
+    "bento": {
+        "setup": {
+            "title": "터미널 없이 설치",
+            "description": "터미널을 써본 적이 없다고요? 문제 없습니다. Whisky가 설치 작업을 간편하고 따라하기 쉽게 만들어 줍니다.",
+            "alt": "설치 마법사"
+        },
+        "tools": {
+            "title": "사전 빌드된 도구들",
+            "description": "GPTK를 컴파일하는 데 몇 시간씩 기다리지 마세요. Whisky 설치부터 게임까지 단 몇 분만에 완료하세요.",
+            "alt": "Wine 다운로더"
+        },
+        "design": {
+            "title": "친숙한 디자인",
+            "description": "처음부터 macOS용으로 제작된 네이티브 UI. 빠르고 세련된 앱으로 편안함을 느껴 보세요.",
+            "alt": "Bottle 설정",
+            "list": {
+                "native": "네이티브 UI. 네이티브 속도. Electron 사용으로 인한 속도 저하가 없습니다.",
+                "localised": "17개 언어로 번역되었습니다.",
+                "responsive": "반응성이 뛰어나고 견고합니다.",
+                "sonoma": "macOS Sonoma에서, macOS Sonoma를 위한 빌드."
+            }
+        },
+        "integration": {
+            "title": "macOS 연동",
+            "description": "드래그 앤 드롭? 터미널 연동? 네이티브 로깅? 저희가 해드립니다.",
+            "alt": "드래그 앤 드롭 GPTK 설치 관리자"
+        },
+        "debugging": {
+            "title": "쉬운 디버깅",
+            "description": "번거로운 과정 없이 Xcode에 연결하여 GPU 캡처를 할 수 있습니다.",
+            "alt": "Xcode GPU 캡처"
+        }
+    }
+}
