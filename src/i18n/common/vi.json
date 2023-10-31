@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Gia nhập kênh Discord của Whisky",
+        "github": "Đi đến Github của Whisky",
+        "light": "Chuyển sang giao diện Sáng",
+        "dark": "Chuyển sang giao diện Tối",
+        "description": "Một phiên bản Wine hiện đại cho macOS được xây dựng bằng SwiftUI",
+        "embed": "Chạy DirectX 12 một cách dễ dàng trên Mac của bạn với Whisky!"
+    },
+    "splash": {
+        "title": "Gia nhập cuộc cách mạng gaming trên máy Mac.",
+        "subtitle": "Trải nghiệm những trò chơi mới nhất một cách dễ dàng với Whisky.",
+        "latest-release": "Tải xuống phiên bản mới nhất",
+        "all-releases": "Xem tất cả các phiên bản",
+        "icon-alt": "Logo của Whisky"
+    },
+    "wine": {
+        "wine": "Wine",
+        "supercharged": "Siêu mạnh mẽ...",
+        "subtitle": "với sức mạnh của Game Porting Toolkit từ Apple."
+    },
+    "marquee": {
+        "growing": "và danh sách vẫn đang được bổ sung..."
+    },
+    "bento": {
+        "setup": {
+            "title": "Không cần terminal để thiết lập.",
+            "description": "Không có kinh nghiệm dùng Terminal? Không sao. Whisky khiến việc cài đặt đơn giản và dễ để theo kịp.",
+            "alt": "Trình cài đặt"
+        },
+        "tools": {
+            "title": "Những công cụ có sẵn.",
+            "description": "Không cần phải đợi hàng giờ để thiết lập GPTK. Cài đặt Whisky để chơi game chỉ trong vài phút.",
+            "alt": "Trình tải xuống Wine"
+        },
+        "design": {
+            "title": "Thiết kế quen thuộc.",
+            "description": "UI được xây dựng dành riêng cho macOS. Cảm thấy quen thuộc với sự bo tròn, tốc độ xử lý nhanh không tưởng.",
+            "alt": "Cài đặt Bottle",
+            "list": {
+                "native": "UI nguyên bản. Tốc độ nguyên bản. Không bị làm chậm bởi bất cứ tiến trình nào.",
+                "localised": "Hỗ trợ 17 ngôn ngữ khác nhau.",
+                "responsive": "Mượt mà và mạnh mẽ.",
+                "sonoma": "Được xây dựng trên macOS Sonoma để dành cho macOS Sonoma."
+            }
+        },
+        "integration": {
+            "title": "tích hợp trong macOS.",
+            "description": "Kéo và thả? Tích hợp Terminal? Log thời gian thực? Chúng tôi đều có.",
+            "alt": "Kéo và thả Trình cài đặt GPTK"
+        },
+        "debugging": {
+            "title": "Gỡ lỗi được đơn giản hoá.",
+            "description": "Kết nối với Xcode và khiến GPU xử lý mà không mất thời gian.",
+            "alt": "Xcode GPU Capture"
+        }
+    }
+}
