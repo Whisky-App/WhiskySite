@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Unisciti al server Discord di Whisky",
+        "github": "Vai alla pagina GitHub di Whisky",
+        "light": "Passa al tema chiaro",
+        "dark": "Passa al tema scuro",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+    },
+    "splash": {
+        "title": "Unisciti alla rivoluzione del gaming su Mac.",
+        "subtitle": "Goditi gli ultimi titoli senza sforzo con Whisky.",
+        "latest-release": "Scarica l'ultima versione",
+        "all-releases": "Vedi tutte le versioni",
+        "icon-alt": "Logo Di Whisky"
+    },
+    "wine": {
+        "wine": "Wine",
+        "supercharged": "Potenziato...",
+        "subtitle": "con la potenza di Apple Game Porting Toolkit."
+    },
+    "marquee": {
+        "growing": "e la lista è in continua crescita..."
+    },
+    "bento": {
+        "setup": {
+            "title": "Installazione senza terminale.",
+            "description": "Nessuna esperienza con il terminale? Nessun problema. Whisky rende la configurazione semplice e facile da seguire.",
+            "alt": "Installazione guidata"
+        },
+        "tools": {
+            "title": "Strumenti precompilati.",
+            "description": "Non aspettare ore ad aspettare che GPTK finisca di essere compilato. Passa dall'installazione di Whisky a giocare in pochi minuti.",
+            "alt": "Wine Downloader"
+        },
+        "design": {
+            "title": "Design familiare.",
+            "description": "Interfaccia utente nativa creata da zero per macOS. Sentiti come a casa in questa utopia dagli angoli arrotondati e dal caricamento veloce.",
+            "alt": "Configurazione Della Bottiglia",
+            "list": {
+                "native": "Interfaccia nativa. Velocità nativa. Nessun rallentamento causato da Electron.",
+                "localised": "Localizzato in 17 lingue diverse.",
+                "responsive": "Reattivo e robusto.",
+                "sonoma": "Costruito su macOS Sonoma per macOS Sonoma."
+            }
+        },
+        "integration": {
+            "title": "Integrazione con macOS.",
+            "description": "Trascina e rilascia? Integrazione con il terminale? Registrazione nativa? Le abbiamo tutte.",
+            "alt": "Programma di installazione GPTK trascina e rilascia"
+        },
+        "debugging": {
+            "title": "Debugging reso facile.",
+            "description": "Collegati a Xcode ed esegui catture GPU in un attimo.",
+            "alt": "Acquisizione GPU con Xcode"
+        }
+    }
+}
