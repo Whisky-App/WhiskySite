@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "加入Whisky的Discord",
+        "github": "看看Whisky的GitHub",
+        "light": "切換至淺色主題",
+        "dark": "切換至深色主題",
+        "description": "A modern Wine wrapper for macOS built with SwiftUI",
+        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+    },
+    "splash": {
+        "title": "參與Mac遊戲變革",
+        "subtitle": "利用Whisky輕鬆體驗最新遊戲.",
+        "latest-release": "下載最新版",
+        "all-releases": "查看所有版本",
+        "icon-alt": "Whisky徽標"
+    },
+    "wine": {
+        "wine": "Wine",
+        "supercharged": "超絕支援...",
+        "subtitle": "由蘋果遊戲移植工具提供支援."
+    },
+    "marquee": {
+        "growing": "並且列表內容還在不斷增加..."
+    },
+    "bento": {
+        "setup": {
+            "title": "安裝無須終端.",
+            "description": "無終端使用經驗？沒有問題，Whisky讓安裝輕車熟路。",
+            "alt": "安裝嚮導"
+        },
+        "tools": {
+            "title": "預設工具。",
+            "description": "無需等待 GPTK 數小時的編譯時間。開始安裝 Whisky ，幾分鐘後就開始遊戲。",
+            "alt": "Wine下載器"
+        },
+        "design": {
+            "title": "熟悉的設計。",
+            "description": "從零打造的macOS原生UI，賓至如歸宾，加載如燕。",
+            "alt": "Bottle設置",
+            "list": {
+                "native": "原生UI，原生速度，毫無Electron的遲滯。",
+                "localised": "支持17種不同語言顯示。",
+                "responsive": "反應靈敏穩定。",
+                "sonoma": "基於macOS Sonoma，為macOS Sonoma構建。"
+            }
+        },
+        "integration": {
+            "title": "macOS集成。",
+            "description": "拖放？終端集成？原生日誌？我們全都搞定。",
+            "alt": "拖放安裝蘋果遊戲移植工具GPTK"
+        },
+        "debugging": {
+            "title": "Debug變得容易。",
+            "description": "連結到Xcode，獲取GPU Captures，沒有繁文縟節。",
+            "alt": "Xcode GPU Capture"
+        }
+    }
+}
