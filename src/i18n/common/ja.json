@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Whisky の Discord に参加する",
+        "github": "Whisky の GitHub にアクセスする",
+        "light": "ライトテーマに切り替える",
+        "dark": "ダークテーマに切り替える",
+        "description": "SwiftUIによって作成されたmacOS用の新しいWineラッパー",
+        "embed": "Whiskyを使ってMacで最新のDirectX 12タイトルを手間なく実行しよう！"
+    },
+    "splash": {
+        "title": "Macのゲーム革命に乗ろう",
+        "subtitle": "Whisky で最新タイトルを簡単に体験できます。",
+        "latest-release": "最新版のダウンロード",
+        "all-releases": "すべてのリリースを見る",
+        "icon-alt": "Whiskyのロゴ"
+    },
+    "wine": {
+        "wine": "Wineが",
+        "supercharged": "驚異的に。",
+        "subtitle": "Apple Game Porting Toolkit の力を借りて。"
+    },
+    "marquee": {
+        "growing": "そしてタイトルは今も増え続けています。"
+    },
+    "bento": {
+        "setup": {
+            "title": "ターミナルでのセットアップなし。",
+            "description": "ターミナル経験がなくても大丈夫。 Whisky上でセットアップを行うので、分かりやすくなっています。",
+            "alt": "セットアップウィザード"
+        },
+        "tools": {
+            "title": "事前に構築されたツール。",
+            "description": "GPTK がコンパイルされるまで何時間も待つ必要はありません。 Whisky のインストールから数分でゲームを開始できます。",
+            "alt": "Wineダウンローダ"
+        },
+        "design": {
+            "title": "おなじみのデザイン。",
+            "description": "macOSにマッチするようにゼロから構築されたネイティブなUI。 角丸で、読み込みの速い理想郷です。",
+            "alt": "ボトル構成",
+            "list": {
+                "native": "ネイティブなUI。 ネイティブな速度。 Electronでも遅くならない。",
+                "localised": "17 か国語にローカライズされています。",
+                "responsive": "応答性と堅牢性。",
+                "sonoma": "macOS Sonoma のために macOS Sonoma で作成しています。"
+            }
+        },
+        "integration": {
+            "title": "macOSの統合。",
+            "description": "ドラッグアンドドロップ？ ターミナル統合？ ネイティブロギング？ あります。",
+            "alt": "ドラッグアンドドロップ GPTK インストーラー"
+        },
+        "debugging": {
+            "title": "デバッグが簡単に。",
+            "description": "Xcode に接続して、手間をかけずに GPU キャプチャを作成します。",
+            "alt": "Xcode GPU キャプチャ"
+        }
+    }
+}
