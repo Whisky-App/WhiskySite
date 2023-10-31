@@ -9,12 +9,15 @@
     "preview": "astro preview",
     "astro": "astro",
     "i18n:install": "astro-i18n install",
-    "i18n:sync": "astro-i18n sync",
-    "i18n:extract:keys": "astro-i18n extract:keys"
+    "i18n:sync": "npm run i18n:generate:pages && npm run i18n:generate:types",
+    "i18n:extract:keys": "astro-i18n extract:keys",
+    "i18n:extract": "astro-i18n extract",
+    "i18n:generate:pages": "astro-i18n generate:pages --purge",
+    "i18n:generate:types": "astro-i18n generate:types"
   },
   "dependencies": {
     "astro": "^3.4.0",
-    "astro-i18n": "^1.8.1",
+    "astro-i18n": "^2.1.18",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
