@@ -1,0 +1,58 @@
+{
+    "header": {
+        "discord": "Liity Whisky:n Discord palvelimelle",
+        "github": "Mene Whisky:n Githubiin",
+        "light": "Vaihda vaaleaan väriteemaan",
+        "dark": "Vaihda tummaan väriteemaan",
+        "description": "Moderni Wine wrapperi tehty MacOS:lle SwiftUI:n avulla",
+        "embed": "Pelaa uusimpia DirectX 12 pelejä Macilläsi vaivattomasti Whisky:n avulla!"
+    },
+    "splash": {
+        "title": "Liity Macillä pelaamisen vallankumoukseen.",
+        "subtitle": "Koe uusimmat pelit vaivattomasti Whisky:n avulla.",
+        "latest-release": "Lataa uusin",
+        "all-releases": "Näe vanhemmat julkaisut",
+        "icon-alt": "Whisky:n Logo"
+    },
+    "wine": {
+        "wine": "Wine",
+        "supercharged": "Kiihdytetty...",
+        "subtitle": "Applen Game Porting Toolkitin voimalla."
+    },
+    "marquee": {
+        "growing": "ja lista vain aina kasvaa..."
+    },
+    "bento": {
+        "setup": {
+            "title": "Ei kommentokehotetta",
+            "description": "Whisky:n asennus ei tarvitse Kommentokehotetta ja voit vain seurata ohjeita näytöllä päästäksesi alkuun.",
+            "alt": "Ohjattu Asennus"
+        },
+        "tools": {
+            "title": "Esirakennetut työkalut.",
+            "description": "Älä käytä tuntikausia GPTK:n rakentamiseen. Whisky:llä voit aloittaa pelaamisen parissa minuutissa.",
+            "alt": "Wine:n lataaja"
+        },
+        "design": {
+            "title": "Kotoisa design.",
+            "description": "Natiivi käyttöliittymä rakenettu ja optimoitu macOS:lle. Tunne tuttu ja kotoisa tyylitys pyöreillä kulmilla ja nopeilla lataus ajoilla.",
+            "alt": "Pullo asetukset.",
+            "list": {
+                "native": "Natiivi käyttöliittymä. Natiivit nopeudet. Ei Electronin hidastuksia.",
+                "localised": "Käännetty 17 eri kielelle.",
+                "responsive": "Responsiivinen ja kestävä.",
+                "sonoma": "Rakennettu MacOS:llä, macOS Sonoma:lle."
+            }
+        },
+        "integration": {
+            "title": "macOS integraatio.",
+            "description": "Raahaa ja pudota? Terminaali integraatio? Natiivi kirjautuminen? Meiltä löytyy se kaikki.",
+            "alt": "Raahaa ja pudota GTPK:n asennus"
+        },
+        "debugging": {
+            "title": "Vianetsintä tehty helpoksi.",
+            "description": "Yhdistämällä Xcode:en pystyt tekemään GPU kaappauksia vaivattomasti.",
+            "alt": "Xcode GPU kaappaus"
+        }
+    }
+}
