@@ -21,7 +21,7 @@
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
-    "@unocss/reset": "^0.57.1",
-    "unocss": "^0.57.1"
+    "@unocss/reset": "^0.58.0",
+    "unocss": "^0.58.0"
   }
 }
