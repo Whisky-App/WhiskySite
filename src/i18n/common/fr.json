@@ -31,7 +31,7 @@
         "tools": {
             "title": "Outils précompilés.",
             "description": "N'attendez pas pendant des heures que GPTK se compile. Passez de l'installation de Whisky au jeu en quelques minutes.",
-            "alt": "Wine Downloader"
+            "alt": "Téléchargeur Wine"
         },
         "design": {
             "title": "Design familier.",

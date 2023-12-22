@@ -4,8 +4,8 @@
         "github": "看看Whisky的GitHub源码",
         "light": "切换到浅色主题",
         "dark": "切换到深色主题",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "description": "macOS 的现代 Wine 封装，用 SwiftUI 打造",
+        "embed": "用 Whisky 在你的 Mac 上轻松运行最新 DirectX 12 大作！"
     },
     "splash": {
         "title": "参与Mac游戏变革",
@@ -16,8 +16,8 @@
     },
     "wine": {
         "wine": "Wine",
-        "supercharged": "超绝支持...",
-        "subtitle": "由苹果游戏移植工具提供支持。"
+        "supercharged": "超强加持...",
+        "subtitle": "充分利用强大的 Apple 游戏移植工具包。"
     },
     "marquee": {
         "growing": "并且列表还在不断增加..."
@@ -38,10 +38,10 @@
             "description": "从零打造的macOS原生界面，宾至如归，加载如燕。",
             "alt": "Bottle设置",
             "list": {
-                "native": "原生界面，原生速度，没有Electron的迟滞。",
-                "localised": "支持17种不同语言显示。",
-                "responsive": "反应灵敏稳定。",
-                "sonoma": "基于 macOS Sonoma，为macOS Sonoma 构建。"
+                "native": "原生界面，原生速度，毫无 Electron 的卡顿。",
+                "localised": "支持 17 种语言。",
+                "responsive": "流畅而稳定。",
+                "sonoma": "生于 macOS Sonoma，亦为 macOS Sonoma 而生。"
             }
         },
         "integration": {
@@ -50,8 +50,8 @@
             "alt": "拖放安装苹果游戏移植工具GPTK"
         },
         "debugging": {
-            "title": "调试变得容易。",
-            "description": "连接到 Xcode ，获取GPU captures，没有繁文缛节。",
+            "title": "易于调试。",
+            "description": "连接到 Xcode ，获取 GPU captures，易如反掌。",
             "alt": "Xcode GPU Capture"
         }
     }
