@@ -2,10 +2,8 @@ User-Agent: *
 Disallow: /capture.webp
 Disallow: /design.webp
 Disallow: /download.webp
-Disallow: /icon.webp
 Disallow: /integration.webp
 Disallow: /setup.webp
-Disallow: /square-icon.png
 
 User-agent: Googlebot-Image
 Disallow: /
