@@ -1,52 +1,67 @@
 ---
-import { t } from "astro-i18n";
-import Dropdown from "./dropdown.astro";
+import { t } from 'astro-i18n';
+import Dropdown from './dropdown.astro';
 ---
 
-<div class="absolute w-100% flex justify-center sm:justify-end items-center gap-5 font-bold text-2xl p-5 text-gray-500">
-    <div class="grid grid-cols-3 gap-8">
-        <a href="https://discord.gg/CsqAfs9CnM" aria-label={ t("header.discord") } target="_blank" rel="noreferrer noopener" class="fa-brands fa-discord" />
-        <a href="https://github.com/Whisky-App/Whisky" aria-label={ t("header.github") } target="_blank" rel="noreferrer noopener" class="fa-brands fa-github" />
-        <button class="theme hidden dark:inline fa-solid fa-sun" aria-label={ t("header.light") }></button>
-        <button class="theme inline dark:hidden fa-solid fa-moon" aria-label={ t("header.dark") }></button>
-    </div>
-    <Dropdown />
+<div
+  class='absolute w-100% flex justify-center sm:justify-end items-center gap-5 font-bold text-2xl p-5 text-gray-500'
+>
+  <div class='grid grid-cols-3 gap-5 justify-center items-center'>
+    <a
+      href='https://discord.gg/CsqAfs9CnM'
+      aria-label={t('header.discord')}
+      target='_blank'
+      rel='noreferrer noopener'
+      class='fa-brands fa-discord w-8 text-center align-middle'></a>
+    <a
+      href='https://github.com/Whisky-App/Whisky'
+      aria-label={t('header.github')}
+      target='_blank'
+      rel='noreferrer noopener'
+      class='fa-brands fa-github w-8 text-center align-middle'></a>
+    <button
+      class='theme hidden dark:inline fa-solid fa-sun w-8 align-middle'
+      aria-label={t('header.light')}></button>
+    <button
+      class='theme inline dark:hidden fa-solid fa-moon w-8 h-8 align-middle'
+      aria-label={t('header.dark')}></button>
+  </div>
+  <Dropdown />
 </div>
 
-<script lang="ts">
-    const buttons = document.querySelectorAll("button.theme");
-    const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+<script lang='ts'>
+  const buttons = document.querySelectorAll('button.theme');
+  const darkThemeMq = window.matchMedia('(prefers-color-scheme: dark)');
 
-    function updateTheme(dark) {
-        if (dark) {
-            document.documentElement.classList.add("dark");
-        } else {
-            document.documentElement.classList.remove("dark");
-        }
-    }
-
-    if (darkThemeMq.matches) {
-        updateTheme(true);
+  function updateTheme(dark) {
+    if (dark) {
+      document.documentElement.classList.add('dark');
     } else {
-        updateTheme(false);
+      document.documentElement.classList.remove('dark');
     }
+  }
 
-    darkThemeMq.addEventListener('change', (e) => {
-        if (e.matches)
-        {
-            updateTheme(true)
-        } else {
-            updateTheme(false)
-        }
-    })
+  if (darkThemeMq.matches) {
+    updateTheme(true);
+  } else {
+    updateTheme(false);
+  }
 
-    buttons.forEach((button) => {
-        button.addEventListener('click', () => {
-            if (document.documentElement.classList.contains("dark")) {
-                updateTheme(false)
-            } else {
-                updateTheme(true)
-            }
-        });
+  darkThemeMq.addEventListener('change', (e) => {
+    if (e.matches) {
+      updateTheme(true);
+    } else {
+      updateTheme(false);
+    }
+  });
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      if (document.documentElement.classList.contains('dark')) {
+        updateTheme(false);
+      } else {
+        updateTheme(true);
+      }
     });
+  });
 </script>
