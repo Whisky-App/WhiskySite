@@ -1,27 +1,28 @@
 {
-    "name": "getwhisky.app",
-    "type": "module",
-    "version": "0.0.1",
-    "scripts": {
-        "dev": "astro dev",
-        "start": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro",
-        "i18n:install": "astro-i18n install",
-        "i18n:sync": "npm run i18n:generate:pages && npm run i18n:generate:types",
-        "i18n:extract:keys": "astro-i18n extract:keys",
-        "i18n:extract": "astro-i18n extract",
-        "i18n:generate:pages": "astro-i18n generate:pages --purge",
-        "i18n:generate:types": "astro-i18n generate:types"
-    },
-    "dependencies": {
-        "astro": "4.1.2",
-        "astro-i18n": "^2.2.0",
-        "rss-parser": "^3.13.0"
-    },
-    "devDependencies": {
-        "@unocss/reset": "^0.58.3",
-        "unocss": "^0.58.3"
-    }
+  "name": "getwhisky.app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "i18n:install": "astro-i18n install",
+    "i18n:sync": "npm run i18n:generate:pages && npm run i18n:generate:types",
+    "i18n:extract:keys": "astro-i18n extract:keys",
+    "i18n:extract": "astro-i18n extract",
+    "i18n:generate:pages": "astro-i18n generate:pages --purge",
+    "i18n:generate:types": "astro-i18n generate:types"
+  },
+  "dependencies": {
+    "astro": "4.3.2",
+    "astro-i18n": "^2.2.4",
+    "events": "^3.3.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^0.58.5",
+    "unocss": "^0.58.5"
+  }
 }
