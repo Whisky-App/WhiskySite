@@ -6,4 +6,7 @@ Disallow: /integration.webp
 Disallow: /setup.webp
 
 User-agent: Googlebot-Image
+Disallow:
+
+User-agent: *
 Disallow: /
