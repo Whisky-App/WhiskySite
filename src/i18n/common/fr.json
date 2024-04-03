@@ -5,7 +5,7 @@
         "light": "Basculer vers le thème clair",
         "dark": "Basculer vers le thème sombre",
         "description": "Un wrapper Wine moderne pour macOS construit avec SwiftUI",
-        "embed": "Jouer les derniers titres DirectX 12 facilement sur votre Mac avec Whisky!"
+        "embed": "Jouer les derniers titres DirectX 12 facilement sur votre Mac avec Whisky !"
     },
     "splash": {
         "title": "Rejoignez la révolution du gaming sur Mac.",
@@ -25,7 +25,7 @@
     "bento": {
         "setup": {
             "title": "Installation sans terminal.",
-            "description": "Pas d'expérience avec le terminal? Pas de problème. Whisky rend l'installation simple et facile à suivre.",
+            "description": "Pas d'expérience avec le terminal ? Pas de problème. Whisky rend l'installation simple et facile à suivre.",
             "alt": "Assistant d'Installation"
         },
         "tools": {
