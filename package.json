@@ -16,7 +16,7 @@
     "i18n:generate:types": "astro-i18n generate:types"
   },
   "dependencies": {
-    "astro": "4.6.1",
+    "astro": "4.7.0",
     "astro-i18n": "^2.2.4",
     "events": "^3.3.0",
     "rss-parser": "^3.13.0"
