@@ -40,7 +40,7 @@
             "alt": "Bottle设置",
             "list": {
                 "native": "原生界面，原生速度，毫无 Electron 的卡顿。",
-                "localised": "支持 17 种语言。",
+                "localised": "支持 20 种语言。",
                 "responsive": "流畅而稳定。",
                 "sonoma": "生于 macOS Sonoma，亦为 macOS Sonoma 而生。"
             }
