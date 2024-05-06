@@ -40,7 +40,7 @@
             "alt": "Bottle configuratie",
             "list": {
                 "native": "Native gebruikersinterface. Vanuit de basis snel. Geen Electron traagheid.",
-                "localised": "Gelokaliseerd in 17 verschillende talen.",
+                "localised": "Gelokaliseerd in 20 verschillende talen.",
                 "responsive": "Responsief en robuust.",
                 "sonoma": "Gebouwd met macOS Sonoma, voor macOS Sonoma."
             }

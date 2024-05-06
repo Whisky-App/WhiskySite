@@ -40,7 +40,7 @@
             "alt": "Bottle設置",
             "list": {
                 "native": "原生UI，原生速度，毫無Electron的遲滯。",
-                "localised": "支持17種不同語言顯示。",
+                "localised": "支持20種不同語言顯示。",
                 "responsive": "反應靈敏穩定。",
                 "sonoma": "基於macOS Sonoma，為macOS Sonoma構建。"
             }

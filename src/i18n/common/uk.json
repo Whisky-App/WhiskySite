@@ -40,7 +40,7 @@
             "alt": "Конфігурація Bottle",
             "list": {
                 "native": "Нативний інтерфейс. Нативні швидкості. Без сповільнення Electron.",
-                "localised": "Доступний на 17 мовах.",
+                "localised": "Доступний на 20 мовах.",
                 "responsive": "Адаптивний та надійний.",
                 "sonoma": "Створено на macOS Sonoma для macOS Sonoma."
             }

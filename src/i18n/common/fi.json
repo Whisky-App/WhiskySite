@@ -40,7 +40,7 @@
             "alt": "Pullo asetukset.",
             "list": {
                 "native": "Natiivi käyttöliittymä. Natiivit nopeudet. Ei Electronin hidastuksia.",
-                "localised": "Käännetty 17 eri kielelle.",
+                "localised": "Käännetty 20 eri kielelle.",
                 "responsive": "Responsiivinen ja kestävä.",
                 "sonoma": "Rakennettu MacOS:llä, macOS Sonoma:lle."
             }

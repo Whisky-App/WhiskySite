@@ -40,7 +40,7 @@
             "alt": "ボトル構成",
             "list": {
                 "native": "ネイティブなUI。 ネイティブな速度。 Electronでも遅くならない。",
-                "localised": "17 か国語にローカライズされています。",
+                "localised": "20 か国語にローカライズされています。",
                 "responsive": "応答性と堅牢性。",
                 "sonoma": "macOS Sonoma のために macOS Sonoma で作成しています。"
             }

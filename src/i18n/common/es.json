@@ -40,7 +40,7 @@
             "alt": "Configuración de Botella",
             "list": {
                 "native": "IU nativa. Velocidad nativa. Sin la lentitud de Electron.",
-                "localised": "Traducido a 17 idiomas distintos.",
+                "localised": "Traducido a 20 idiomas distintos.",
                 "responsive": "Responsivo y robusto.",
                 "sonoma": "Construido sobre macOS Sonoma, para macOS Sonoma."
             }

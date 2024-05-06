@@ -40,7 +40,7 @@
             "alt": "Bottle 설정",
             "list": {
                 "native": "네이티브 UI. 네이티브 속도. Electron 사용으로 인한 속도 저하가 없습니다.",
-                "localised": "17개 언어로 번역되었습니다.",
+                "localised": "20개 언어로 번역되었습니다.",
                 "responsive": "반응성이 뛰어나고 견고합니다.",
                 "sonoma": "macOS Sonoma에서, macOS Sonoma를 위한 빌드."
             }

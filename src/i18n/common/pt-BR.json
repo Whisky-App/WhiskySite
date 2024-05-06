@@ -40,7 +40,7 @@
             "alt": "Configuração do Bottle",
             "list": {
                 "native": "Interface e velocidade nativa. Sem a lentidão do Electron.",
-                "localised": "Localizado em 17 idiomas diferentes.",
+                "localised": "Localizado em 20 idiomas diferentes.",
                 "responsive": "Responsivo e robusto.",
                 "sonoma": "Desenvolvido no macOS Sonoma para o macOS Sonoma."
             }
