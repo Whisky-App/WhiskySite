@@ -1,10 +1,5 @@
 ---
 import { t } from "astro-i18n";
-import Parser from "rss-parser";
-
-let parser = new Parser();
-let feed = await parser.parseURL("https://data.getwhisky.app/appcast.xml");
-const downloadURL = feed.items.at(0)?.enclosure?.url ?? "https://github.com/Whisky-App/Whisky/releases/latest/download/Whisky.zip";
 ---
 
 <div class="h-[100vh] max-w-[1920px] mx-auto flex flex-col items-center justify-center px-5 md:px-10 lg:px-20 gap-5 lg:gap-0">
@@ -13,7 +8,7 @@ const downloadURL = feed.items.at(0)?.enclosure?.url ?? "https://github.com/Whis
             <h1 class="text-4xl text-center sm:text-left md:text-6xl xl:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-red-500 py-5">{ t("splash.title") }</h1>
             <p class="text-black dark:text-white text-center sm:text-left tracking-wide text-sm md:text-xl">{ t("splash.subtitle") }</p>
             <div class="flex w-full gap-5 justify-center sm:justify-start py-5">
-                <a href={downloadURL} rel="noreferrer noopener">
+                <a class="download" rel="noreferrer noopener">
                     <div class="bg-amber-500 px-4 py-2 rounded-2xl sm:rounded-3xl transition duration-300 hover:ease-in-out hover:bg-red-500 hover:drop-shadow-xl hover:scale-105">
                         <p class="text-center text-black text-sm md:text-lg font-bold">{ t("splash.latest-release") }</p>
                     </div>
@@ -36,3 +31,21 @@ const downloadURL = feed.items.at(0)?.enclosure?.url ?? "https://github.com/Whis
         }
     }
 </style>
+
+<script>
+    import Parser from "rss-parser";
+
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", "https://data.getwhisky.app/appcast.xml", false);
+    xmlHttp.send(null);
+    
+    let parser = new Parser();
+    let feed = await parser.parseString(xmlHttp.responseText);
+    let downloadURL = feed.items.at(0)?.enclosure?.url ?? "https://github.com/Whisky-App/Whisky/releases/latest/download/Whisky.zip";
+
+    const downloadLink = document.querySelectorAll('a.download');
+
+    downloadLink.forEach(async (link) => {
+        link.setAttribute("href", downloadURL);
+    })
+</script>
