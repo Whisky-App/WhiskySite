@@ -1,6 +1,6 @@
 {
     "header": {
-        "docs": "Browse Whisky's Documentation",
+        "docs": "Przeglądaj dokumentację Whisky",
         "discord": "Dołącz do Discorda Whisky",
         "github": "Odwiedź Whisky na GitHubie",
         "light": "Przełącz na jasny motyw",
@@ -11,8 +11,8 @@
     "splash": {
         "title": "Dołącz do rewolucji gamingu na Macu.",
         "subtitle": "Graj w najnowsze tytuły bez wysiłku dzięki Whisky.",
-        "latest-release": "Pobierz najnowsze",
-        "all-releases": "Zobacz wszystkie wydania",
+        "latest-release": "Pobierz najnowszą wersję",
+        "all-releases": "Zobacz wszystkie wersje",
         "icon-alt": "Logo Whisky"
     },
     "wine": {

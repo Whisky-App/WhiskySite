@@ -1,6 +1,6 @@
 {
     "header": {
-        "docs": "Browse Whisky's Documentation",
+        "docs": "Xem tư liệu của Whisky",
         "discord": "Gia nhập kênh Discord của Whisky",
         "github": "Đi đến Github của Whisky",
         "light": "Chuyển sang giao diện Sáng",
@@ -53,7 +53,7 @@
         "debugging": {
             "title": "Gỡ lỗi được đơn giản hoá.",
             "description": "Kết nối với Xcode và khiến GPU xử lý mà không mất thời gian.",
-            "alt": "Xcode GPU Capture"
+            "alt": "Xuất qua Xcode GPU"
         }
     }
 }
