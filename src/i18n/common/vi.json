@@ -1,6 +1,6 @@
 {
     "header": {
-        "docs": "Browse Whisky's Documentation",
+        "docs": "Xem tư liệu của Whisky",
         "discord": "Gia nhập kênh Discord của Whisky",
         "github": "Đi đến Github của Whisky",
         "light": "Chuyển sang giao diện Sáng",
@@ -40,7 +40,7 @@
             "alt": "Cài đặt Bottle",
             "list": {
                 "native": "UI nguyên bản. Tốc độ nguyên bản. Không bị làm chậm bởi bất cứ tiến trình nào.",
-                "localised": "Hỗ trợ 17 ngôn ngữ khác nhau.",
+                "localised": "Hỗ trợ 20 ngôn ngữ khác nhau.",
                 "responsive": "Mượt mà và mạnh mẽ.",
                 "sonoma": "Được xây dựng trên macOS Sonoma để dành cho macOS Sonoma."
             }
@@ -53,7 +53,7 @@
         "debugging": {
             "title": "Gỡ lỗi được đơn giản hoá.",
             "description": "Kết nối với Xcode và khiến GPU xử lý mà không mất thời gian.",
-            "alt": "Xcode GPU Capture"
+            "alt": "Xuất qua Xcode GPU"
         }
     }
 }
