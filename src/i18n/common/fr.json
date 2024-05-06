@@ -40,7 +40,7 @@
             "alt": "Configuration de Bouteille",
             "list": {
                 "native": "Interface native. Performance native. Pas de ralentissement d'Electron.",
-                "localised": "Traduit dans 17 langues différentes.",
+                "localised": "Traduit dans 20 langues différentes.",
                 "responsive": "Réactif et robuste.",
                 "sonoma": "Construit sur macOS Sonoma pour macOS Sonoma."
             }
