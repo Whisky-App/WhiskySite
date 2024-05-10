@@ -6,10 +6,10 @@
         "light": "Açık temaya geç",
         "dark": "Karanlık temaya geç",
         "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "embed": "En son DirectX 12 içeriklerini Whisky ile Mac'inizde zahmetsizce çalıştırın!"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
+        "title": "Mac oyun devrimine katılın.",
         "subtitle": "Experience the latest titles effortlessly with Whisky.",
         "latest-release": "Download Latest",
         "all-releases": "See All Releases",
