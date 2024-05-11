@@ -30,7 +30,7 @@
             "alt": "Kurulum Sihirbazı"
         },
         "tools": {
-            "title": "Pre-built tools.",
+            "title": "Önceden oluşturulmuş araçlar.",
             "description": "GPTK'nın derlenmesi için saatlerce beklemeyin. Whisky'yi kurduktan sonra dakikalar içinde oyun oynamaya başlayın.",
             "alt": "Wine İndirici"
         },
@@ -42,7 +42,7 @@
                 "native": "Yerel kullanıcı arayüzü. Yerel hızlar. Electron yavaşlaması yok.",
                 "localised": "20 farklı dilde yerelleştirilmiştir.",
                 "responsive": "Duyarlı ve sağlam.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "sonoma": "MacOS Sonoma için macOS Sonoma'da geliştirildi."
             }
         },
         "integration": {
