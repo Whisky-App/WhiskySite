@@ -1,8 +1,10 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
     title: string;
     description: string;
-    image: string;
+    image: ImageMetadata;
     alt: string;
     reverse?: Boolean;
     row?: Boolean;
@@ -13,7 +15,7 @@ const { title, description, image, alt, reverse = false, row = false } = Astro.p
 
 <div class=`bg-gray-200 dark:bg-gray-800 p-5 gap-5 rounded-xl transition duration-300 group hover:ease-in-out hover:scale-102 hover:bg-gradient-to-br from-gray-200/10 to-transparent flex flex-col${(reverse ?  "-reverse" : "")} ${ "sm:flex-" + (row ? "row" : "col") + (reverse ?  "-reverse" : "")} flex-grow`>
     <div class="flex flex-[60%] items-center justify-center">
-        <img class="max-h-[13rem] h-auto w-auto block" src={image} alt={alt} />
+        <Image class="max-h-[13rem] h-auto w-auto block" src={image} alt={alt} />
     </div>
     <div class="flex flex-col justify-center flex-[40%]">
         <p class="font-extrabold text-2xl text-transparent bg-clip-text bg-black dark:bg-white transition duration-300 group-hover:ease-in-out group-hover:bg-gradient-to-r group-hover:from-amber-500 group-hover:to-red-500">{title}</p>

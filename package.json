@@ -16,13 +16,13 @@
     "i18n:generate:types": "astro-i18n generate:types"
   },
   "dependencies": {
-    "astro": "4.7.1",
+    "astro": "4.10.1",
     "astro-i18n": "^2.2.4",
     "events": "^3.3.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
-    "@unocss/reset": "^0.59.3",
-    "unocss": "^0.59.3"
+    "@unocss/reset": "^0.60.4",
+    "unocss": "^0.60.4"
   }
 }

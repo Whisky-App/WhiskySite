@@ -1,16 +1,22 @@
 ---
 import BentoCard from "./bento-card.astro";
 import { t } from "astro-i18n";
+
+import setup from '../images/setup.webp';
+import download from '../images/download.webp';
+import design from '../images/design.webp';
+import integration from '../images/integration.webp';
+import capture from '../images/capture.webp';
 ---
 
 <div class="bg-white dark:bg-black">
     <div class="p-5 md:p-10 lg:p-20 gap-5 flex flex-col lg:flex-row text-black dark:text-white max-w-[1920px] mx-auto">
         <div class="flex flex-col flex-[40%] gap-5">
-            <BentoCard title={ t("bento.setup.title") } description={ t("bento.setup.description") } alt={ t("bento.setup.alt") } image="/setup.webp" />
-            <BentoCard title={ t("bento.tools.title") } description={ t("bento.tools.description") } alt={ t("bento.tools.alt") } image="/download.webp" />
+            <BentoCard title={ t("bento.setup.title") } description={ t("bento.setup.description") } alt={ t("bento.setup.alt") } image={setup} />
+            <BentoCard title={ t("bento.tools.title") } description={ t("bento.tools.description") } alt={ t("bento.tools.alt") } image={download} />
         </div>
         <div class="flex flex-col flex-[60%] gap-5">
-            <BentoCard title={ t("bento.design.title") } description={ t("bento.design.description") } alt={ t("bento.design.alt") } image="/design.webp" row={true} reverse={true}>
+            <BentoCard title={ t("bento.design.title") } description={ t("bento.design.description") } alt={ t("bento.design.alt") } image={design} row={true} reverse={true}>
                 <ul class="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 transition duration-300 group-hover:ease-in-out group-hover:text-black dark:group-hover:text-white py-5 [&>*]:py-2">
                     <li>{ t("bento.design.list.native") }</li>
                     <li>{ t("bento.design.list.localised") }</li>
@@ -19,8 +25,8 @@ import { t } from "astro-i18n";
                 </ul>
             </BentoCard>
             <div class="flex flex-col sm:flex-row gap-5 flex flex-[50%]">
-                <BentoCard title={ t("bento.integration.title") } description={ t("bento.integration.description") } alt={ t("bento.integration.alt") } image="/integration.webp" reverse={true} />
-                <BentoCard title={ t("bento.debugging.title") } description={ t("bento.debugging.description") } alt={ t("bento.debugging.alt") } image="/capture.webp" />
+                <BentoCard title={ t("bento.integration.title") } description={ t("bento.integration.description") } alt={ t("bento.integration.alt") } image={integration} reverse={true} />
+                <BentoCard title={ t("bento.debugging.title") } description={ t("bento.debugging.description") } alt={ t("bento.debugging.alt") } image={capture} />
             </div>
         </div>
     </div>
