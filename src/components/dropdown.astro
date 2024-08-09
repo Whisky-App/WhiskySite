@@ -20,6 +20,7 @@ var map = {
     "uk": "Українська",
     "vi": "Tiếng Việt",
     "ru": "Русский",
+    "tr": "Türkçe",
     "zh-Hans": "简体中文",
     "zh-Hant": "繁體中文"
 }
@@ -34,7 +35,7 @@ var map = {
             </svg>
         </button>
     </div>
-    <div class="absolute right-0 z-10 mt-2 w-45 origin-top-right rounded-md bg-white dark:bg-black ring-1 focus:outline-none" role="menu" id="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+    <div class="absolute right-0 z-10 mt-2 w-45 origin-top-right rounded-md bg-white dark:bg-black ring-1 focus:outline-none max-h-[50vh] overflow-auto" role="menu" id="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
         <div class="py-1" role="none">
             {astroI18n.locales.filter(e => e !== astroI18n.locale).sort().map((lang) =>
                 <a href={"/" + (lang == astroI18n.primaryLocale ? "" : lang)} class="hover:bg-gray-2 dark:hover:bg-gray-9 text-gray-700 dark:text-gray-400 block px-4 py-2 text-sm" role="menuitem">{ map[lang] }</a>

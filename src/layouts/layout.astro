@@ -32,21 +32,25 @@ const { title } = Astro.props;
         <meta name="twitter:description" content=`${ t("header.embed") }`>
         <meta name="twitter:image" content="https://getwhisky.app/square-icon.png">
         <meta property="og:title" content=`Whisky - ${ t("header.description") }`>
-        <meta property="og:url" content="https://playcover.io">
+        <meta property="og:url" content="https://getwhisky.app">
         <meta property="og:description" content=`${ t("header.embed") }`>
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://getwhisky.app/square-icon.png">
         <script type="application/ld+json">
-            {
+        {
             "@context": "http://schema.org",
             "@type": "SoftwareApplication",
-            "name": "Whisky",
+            "name": "Whisky for macOS",
             "image": "https://getwhisky.app/icon.webp",
             "url": "https://getwhisky.app/",
             "downloadUrl": "https://github.com/Whisky-App/Whisky/releases/latest",
             "operatingSystem": "Mac",
-            "applicationCategory": "UtilitiesApplication"
+            "applicationCategory": "UtilitiesApplication",
+            "offers": {
+                "@type": "Offer",
+                "price": "0"
             }
+        }
         </script>
     </head>
     <body class="bg-gray-200 dark:bg-gray-900">
