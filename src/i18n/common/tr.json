@@ -1,59 +1,59 @@
 {
     "header": {
-        "docs": "Browse Whisky's Documentation",
-        "discord": "Join Whisky's Discord",
-        "github": "Go to Whisky's GitHub",
-        "light": "Switch to light theme",
-        "dark": "Switch to dark theme",
-        "description": "A modern Wine wrapper for macOS built with SwiftUI",
-        "embed": "Run the latest DirectX 12 titles effortlessly on your Mac with Whisky!"
+        "docs": "Whisky'nin Dökümantasyonuna Göz Atın",
+        "discord": "Whisky'nin Discord'una Katıl",
+        "github": "Whisky'nin GitHub'ına Git",
+        "light": "Aydınlık temaya geç",
+        "dark": "Karanlık temaya geç",
+        "description": "SwiftUI ile oluşturulmuş macOS için modern bir Wine paketleyicisi",
+        "embed": "Whisky ile en yeni DirectX 12 oyunlarını Mac'inizde zahmetsizce çalıştırın!"
     },
     "splash": {
-        "title": "Join the Mac gaming revolution.",
-        "subtitle": "Experience the latest titles effortlessly with Whisky.",
-        "latest-release": "Download Latest",
-        "all-releases": "See All Releases",
+        "title": "Mac oyun devrimine katılın.",
+        "subtitle": "Whisky ile en yeni oyunları zahmetsizce deneyimleyin.",
+        "latest-release": "Güncel Sürümü İndirin",
+        "all-releases": "Tüm Sürümleri Gör",
         "icon-alt": "Whisky Logo"
     },
     "wine": {
         "wine": "Wine",
-        "supercharged": "Supercharged...",
-        "subtitle": "with the power of Apple's Game Porting Toolkit."
+        "supercharged": "Güçlendirildi...",
+        "subtitle": "Apple'ın Game Porting Toolkit'inin gücüyle."
     },
     "marquee": {
-        "growing": "and the list is always growing..."
+        "growing": "ve liste her zaman büyüyor..."
     },
     "bento": {
         "setup": {
-            "title": "No-terminal setup.",
-            "description": "No terminal experience? No problem. Whisky makes setup hands-off and easy to follow.",
-            "alt": "Setup Wizard"
+            "title": "Terminalsiz kurulum.",
+            "description": "Terminal deneyiminiz yok mu? Sorun değil. Whisky, kurulumu pratik ve takip etmesi kolay hale getirir.",
+            "alt": "Kurulum Sihirbazı"
         },
         "tools": {
-            "title": "Pre-built tools.",
-            "description": "Don't wait hours for GPTK to compile. Get from installing Whisky to gaming in minutes.",
-            "alt": "Wine Downloader"
+            "title": "Önceden oluşturulmuş araçlar.",
+            "description": "GPTK'nın derlenmesi için saatlerce beklemeyin. Whisky'yi kurduktan sonra dakikalar içinde oyun oynamaya başlayın.",
+            "alt": "Wine İndirici"
         },
         "design": {
-            "title": "Familiar design.",
-            "description": "Native UI built from the ground up for macOS. Feel right at home in this rounded-corner, fast-loading utopia.",
-            "alt": "Bottle Config",
+            "title": "Tanıdık tasarım.",
+            "description": "macOS için sıfırdan oluşturulmuş yerel kullanıcı arayüzü. Bu yuvarlak köşeli, hızlı yüklenen ütopyada kendinizi evinizde hissedin.",
+            "alt": "Bottle Konfigürasyonu",
             "list": {
-                "native": "Native UI. Native speeds. No Electron slowdown.",
-                "localised": "Localised in 20 different languages.",
-                "responsive": "Responsive and robust.",
-                "sonoma": "Built on macOS Sonoma for macOS Sonoma."
+                "native": "Yerel kullanıcı arayüzü. Yerel hızlar. Electron yavaşlaması yok.",
+                "localised": "20 farklı dilde yerelleştirilmiştir.",
+                "responsive": "Duyarlı ve sağlam.",
+                "sonoma": "MacOS Sonoma için macOS Sonoma'da geliştirildi."
             }
         },
         "integration": {
-            "title": "macOS integration.",
-            "description": "Drag-n-drop? Terminal integration? Native logging? We got it.",
-            "alt": "Drag-n-drop GPTK Installer"
+            "title": "macOS entegrasyonu.",
+            "description": "Sürükle-bırak? Terminal entegrasyonu? Yerel günlük kaydı? Biz hallederiz.",
+            "alt": "Sürükle-bırak GPTK Yükleyici"
         },
         "debugging": {
-            "title": "Debugging made easy.",
-            "description": "Connect up with Xcode and make GPU captures without all the faff.",
-            "alt": "Xcode GPU Capture"
+            "title": "Hata ayıklama kolaylaştı.",
+            "description": "Xcode ile bağlanın ve tüm zahmetlere katlanmadan GPU yakalamaları yapın.",
+            "alt": "Xcode GPU Yakalama"
         }
     }
 }
