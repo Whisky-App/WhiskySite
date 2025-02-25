@@ -1,11 +1,9 @@
-import { defineConfig } from 'astro/config';
-import UnoCSS from "unocss/astro";
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    UnoCSS({
-      injectReset: true
-    })
-  ]
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });

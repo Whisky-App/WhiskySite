@@ -3,7 +3,7 @@ import { t } from "astro-i18n";
 import Dropdown from "./dropdown.astro";
 ---
 
-<div class="absolute w-100% flex justify-center sm:justify-end items-center gap-5 font-bold text-2xl p-5 text-gray-500">
+<div class="absolute w-[100%] flex justify-center sm:justify-end items-center gap-5 font-bold text-2xl p-5 text-gray-500">
     <div class="grid grid-cols-4 gap-5 justify-center items-center">
         <a
             href="https://docs.getwhisky.app"
@@ -22,20 +22,20 @@ import Dropdown from "./dropdown.astro";
             rel="noreferrer noopener"
             class="fa-brands fa-github w-8 text-center align-middle"></a>
         <button
-            class="theme hidden dark:inline fa-solid fa-sun w-8 align-middle"
+            class="theme fa-solid fa-sun !hidden dark:!inline w-8 align-middle"
             aria-label={t("header.light")}></button>
         <button
-            class="theme inline dark:hidden fa-solid fa-moon w-8 h-8 align-middle"
+            class="theme fa-solid fa-moon !inline dark:!hidden w-8 h-8 align-middle"
             aria-label={t("header.dark")}></button>
     </div>
     <Dropdown />
 </div>
 
-<script lang="ts">
+<script>
     const buttons = document.querySelectorAll("button.theme");
     const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 
-    function updateTheme(dark) {
+    function updateTheme(dark: boolean) {
         if (dark) {
             document.documentElement.classList.add("dark");
         } else {
