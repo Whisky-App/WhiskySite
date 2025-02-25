@@ -6,9 +6,9 @@
 
 // ###> astro-i18n/type-generation ###
 type PrimaryLocale = "en"
-type SecondaryLocale = "cz"|"da"|"ro"|"de"|"es"|"fi"|"fr"|"it"|"ja"|"ko"|"nl"|"pl"|"pt-BR"|"ru"|"uk"|"vi"|"pt"|"zh-Hans"|"zh-Hant"
+type SecondaryLocale = "de"|"es"|"fi"|"fr"|"it"|"ja"|"ko"|"nl"|"pl"|"pt-BR"|"ru"|"tr"|"uk"|"vi"|"pt"|"zh-Hans"|"zh-Hant"
 type Locale = PrimaryLocale | SecondaryLocale
-type RouteParameters = {"/":undefined;}
+type RouteParameters = {"/":undefined;"/cz":undefined;"/da":undefined;"/ro":undefined;}
 type Route = keyof RouteParameters
 type TranslationVariables = {"header.docs":object|undefined;"header.discord":object|undefined;"header.github":object|undefined;"header.light":object|undefined;"header.dark":object|undefined;"header.description":object|undefined;"header.embed":object|undefined;"splash.title":object|undefined;"splash.subtitle":object|undefined;"splash.latest-release":object|undefined;"splash.all-releases":object|undefined;"splash.icon-alt":object|undefined;"wine.wine":object|undefined;"wine.supercharged":object|undefined;"wine.subtitle":object|undefined;"marquee.growing":object|undefined;"bento.setup.title":object|undefined;"bento.setup.description":object|undefined;"bento.setup.alt":object|undefined;"bento.tools.title":object|undefined;"bento.tools.description":object|undefined;"bento.tools.alt":object|undefined;"bento.design.title":object|undefined;"bento.design.description":object|undefined;"bento.design.alt":object|undefined;"bento.design.list.native":object|undefined;"bento.design.list.localised":object|undefined;"bento.design.list.responsive":object|undefined;"bento.design.list.sonoma":object|undefined;"bento.integration.title":object|undefined;"bento.integration.description":object|undefined;"bento.integration.alt":object|undefined;"bento.debugging.title":object|undefined;"bento.debugging.description":object|undefined;"bento.debugging.alt":object|undefined;}
 type Translation = keyof TranslationVariables

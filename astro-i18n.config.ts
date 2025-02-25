@@ -2,7 +2,7 @@ import { defineAstroI18nConfig } from "astro-i18n"
 
 export default defineAstroI18nConfig({
 	primaryLocale: "en",
-	secondaryLocales: ["cz", "da", "ro", "de", "es", "fi", "fr", "it", "ja", "ko", "nl", "pl", "pt-BR", "ru", "tr", "uk", "vi", "pt", "zh-Hans", "zh-Hant"],
+	secondaryLocales: ["de", "es", "fi", "fr", "it", "ja", "ko", "nl", "pl", "pt-BR", "ru", "tr", "uk", "vi", "pt", "zh-Hans", "zh-Hant"],
 	fallbackLocale: "en",
 	trailingSlash: "never",
 	run: "server",
