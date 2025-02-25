@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.7",
-    "astro": "5.3.0",
+    "astro": "5.3.1",
     "astro-i18n": "^2.2.4",
     "events": "^3.3.0",
     "rss-parser": "^3.13.0",
