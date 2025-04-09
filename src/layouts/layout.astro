@@ -1,6 +1,7 @@
 ---
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
+import Notice from '../components/notice.astro';
 import { astroI18n, t } from 'astro-i18n';
 import "../styles/global.css";
 
@@ -57,6 +58,7 @@ const { title } = Astro.props;
     <body class="bg-gray-200 dark:bg-gray-900">
         <Header />
         <slot />
+        <Notice />
         <Footer />
     </body>
 </html>
