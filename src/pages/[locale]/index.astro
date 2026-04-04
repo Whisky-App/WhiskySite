@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/layout.astro';
+import Splash from '../../components/splash.astro';
+import Wine from '../../components/wine.astro';
+import Marquee from '../../components/marquee.astro';
+import Bento from '../../components/bento.astro';
+
+export async function getStaticPaths() {
+    return [
+        'de', 'es', 'fi', 'fr', 'it', 'ja', 'ko',
+        'nl', 'pl', 'pt', 'pt-br', 'ru', 'tr', 'uk',
+        'vi', 'zh-hans', 'zh-hant'
+    ].map(locale => ({ params: { locale } }));
+}
+---
+<Layout title="Whisky - Run Modern Windows Games on macOS">
+    <main>
+        <Splash />
+        <Wine />
+        <Marquee />
+        <Bento />
+    </main>
+</Layout>

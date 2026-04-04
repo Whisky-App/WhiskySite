@@ -1,9 +1,11 @@
 ---
-import { t } from "astro-i18n";
+import { useTranslations } from '../i18n/index';
 import Dropdown from "./dropdown.astro";
+
+const t = useTranslations(Astro.currentLocale ?? 'en');
 ---
 
-<div class="absolute w-[100%] flex justify-center sm:justify-end items-center gap-5 font-bold text-2xl p-5 text-gray-500">
+<div class="absolute w-full flex justify-center sm:justify-end items-center gap-5 font-bold text-2xl p-5 text-gray-500">
     <div class="grid grid-cols-4 gap-5 justify-center items-center">
         <a
             href="https://docs.getwhisky.app"
@@ -22,10 +24,10 @@ import Dropdown from "./dropdown.astro";
             rel="noreferrer noopener"
             class="fa-brands fa-github w-8 text-center align-middle"></a>
         <button
-            class="theme fa-solid fa-sun !hidden dark:!inline w-8 align-middle"
+            class="theme fa-solid fa-sun hidden! dark:inline! w-8 align-middle"
             aria-label={t("header.light")}></button>
         <button
-            class="theme fa-solid fa-moon !inline dark:!hidden w-8 h-8 align-middle"
+            class="theme fa-solid fa-moon inline! dark:hidden! w-8 h-8 align-middle"
             aria-label={t("header.dark")}></button>
     </div>
     <Dropdown />

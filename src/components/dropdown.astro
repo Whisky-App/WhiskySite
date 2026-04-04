@@ -1,10 +1,8 @@
 ---
-import { astroI18n } from "astro-i18n";
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
-var map = {
+const map: Record<string, string> = {
     "en": "English",
-    // "cz": "Čeština",
-    // "da": "Dansk",
     "de": "Deutsch",
     "es": "Español",
     "fi": "Suomi",
@@ -16,30 +14,34 @@ var map = {
     "pl": "Polski",
     "pt": "Português",
     "pt-BR": "Português (Brasil)",
-    // "ro": "Română",
     "uk": "Українська",
     "vi": "Tiếng Việt",
     "ru": "Русский",
     "tr": "Türkçe",
     "zh-Hans": "简体中文",
-    "zh-Hant": "繁體中文"
-}
+    "zh-Hant": "繁體中文",
+};
+
+const currentLocale = Astro.currentLocale ?? 'en';
+const otherLocales = Object.keys(map).filter(l => l !== currentLocale).sort();
 ---
 
 <div class="relative inline-block text-left">
     <div>
         <button type="button" class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white dark:bg-black px-3 py-2 text-sm font-semibold text-gray-900 dark:text-gray-400 ring-1 hover:bg-gray-2 dark:hover:bg-gray-9" id="menu-button" aria-expanded="true" aria-haspopup="true">
-            { map[astroI18n.locale] }
-            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-            </svg>
+        { map[currentLocale] }
+        <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+        </svg>
         </button>
     </div>
     <div class="absolute right-0 z-10 mt-2 w-45 origin-top-right rounded-md bg-white dark:bg-black ring-1 focus:outline-none max-h-[50vh] overflow-auto" role="menu" id="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
         <div class="py-1" role="none">
-            {astroI18n.locales.filter(e => e !== astroI18n.locale).sort().map((lang) =>
-                <a href={"/" + (lang == astroI18n.primaryLocale ? "" : lang)} class="hover:bg-gray-2 dark:hover:bg-gray-9 text-gray-700 dark:text-gray-400 block px-4 py-2 text-sm" role="menuitem">{ map[lang] }</a>
-            )}
+        {otherLocales.map((lang) =>
+            <a href={getRelativeLocaleUrl(lang, '/')} class="hover:bg-gray-2 dark:hover:bg-gray-9 text-gray-700 dark:text-gray-400 block px-4 py-2 text-sm" role="menuitem">
+            { map[lang] }
+            </a>
+        )}
         </div>
     </div>
 </div>
@@ -50,16 +52,12 @@ var map = {
     menu.style.display = "none";
 
     menuButton.addEventListener("click", () => {
-        if (menu.style.display == "none") {
-            menu.style.display = "inline";
-        } else {
-            menu.style.display = "none";
-        }
+        menu.style.display = menu.style.display === "none" ? "inline" : "none";
     });
 
     window.addEventListener("click", (e) => {
         if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
             menu.style.display = "none";
         }
-    })
+    });
 </script>

@@ -1,5 +1,7 @@
 ---
-import { t } from "astro-i18n";
+import { useTranslations } from '../i18n/index';
+
+const t = useTranslations(Astro.currentLocale ?? 'en');
 ---
 
 <script lang="ts">
@@ -18,9 +20,9 @@ window.addEventListener(
 );
 </script>
 
-<div class="bg-white dark:bg-black h-[70vh] flex items-center justify-center items-center flex-col">
+<div class="bg-white dark:bg-black h-[70vh] flex items-center justify-center flex-col">
     <h1 class="text-3xl sm:text-4xl md:text-6xl xl:text-8xl font-extrabold text-black dark:text-white">{ t("wine.wine") }</h1>
-    <h1 class="text-3xl sm:text-4xl md:text-6xl xl:text-8xl font-extrabold italic text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-red-500 pb-5 supercharged">{ t("wine.supercharged") }</h1>
+    <h1 class="text-3xl sm:text-4xl md:text-6xl xl:text-8xl font-extrabold italic text-transparent bg-clip-text bg-linear-to-r from-amber-500 to-red-500 pb-5 supercharged">{ t("wine.supercharged") }</h1>
     <p class="text-black dark:text-white text-center tracking-wide text-sm sm:text-lg md:text-xl">{ t("wine.subtitle") }</p>
 </div>
 

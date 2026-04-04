@@ -2,7 +2,7 @@
 import Header from '../components/header.astro';
 import Footer from '../components/footer.astro';
 import Notice from '../components/notice.astro';
-import { astroI18n, t } from 'astro-i18n';
+import { useTranslations } from '../i18n/index';
 import "../styles/global.css";
 
 export interface Props {
@@ -10,10 +10,12 @@ export interface Props {
 }
 
 const { title } = Astro.props;
+const locale = Astro.currentLocale ?? 'en';
+const t = useTranslations(locale);
 ---
 
 <!DOCTYPE html>
-<html lang={astroI18n.langCode} class="dark">
+<html lang={locale} class="dark">
     <head>
         <meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0, viewport-fit=cover" />

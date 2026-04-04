@@ -1,11 +1,13 @@
 ---
-import { t } from "astro-i18n";
+import { useTranslations } from '../i18n/index';
 
 const marquee1Items = ["Baldur's Gate 3", "Cyberpunk 2077", "Elden Ring", "Palworld", "Sekiro: Shadows Die Twice", "Lethal Company"];
 const marquee2Items = ["Hogwarts Legacy", "God of War", "Diablo II: Resurrected", "Spider-Man Remastered", "Horizon Zero Dawn"];
+
+const t = useTranslations(Astro.currentLocale ?? 'en');
 ---
 
-<div class="py-30 max-w-[1920px] mx-auto">
+<div class="py-30 max-w-480 mx-auto">
     <div class="mask">
         <div class="flex gap-4">
             <ul class="flex text-4xl md:text-5xl xl:text-6xl marquee-content gap-4 font-extrabold whitespace-nowrap text-center">
