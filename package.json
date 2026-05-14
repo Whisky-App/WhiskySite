@@ -10,10 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.2.2",
-    "astro": "6.1.3",
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "6.3.3",
     "events": "^3.3.0",
     "rss-parser": "^3.13.0",
-    "tailwindcss": "^4.2.2"
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5",
+    "wrangler": "^4.90.1"
   }
 }
