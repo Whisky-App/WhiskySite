@@ -12,14 +12,9 @@ const t = useTranslations(Astro.currentLocale ?? 'en');
             <h1 class="text-4xl text-center sm:text-left md:text-6xl xl:text-8xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-amber-500 to-red-500 py-5">{ t("splash.title") }</h1>
             <p class="text-black dark:text-white text-center sm:text-left tracking-wide text-sm md:text-xl">{ t("splash.subtitle") }</p>
             <div class="flex w-full gap-5 justify-center sm:justify-start py-5">
-                <a class="download" rel="noreferrer noopener">
+                <a href="https://crossover.codeweavers.com/">
                     <div class="bg-amber-500 px-4 py-2 rounded-2xl sm:rounded-3xl transition duration-300 hover:ease-in-out hover:bg-red-500 hover:drop-shadow-xl hover:scale-105">
-                        <p class="text-center text-black text-sm md:text-lg font-bold">{ t("splash.latest-release") }</p>
-                    </div>
-                </a>
-                <a href="https://github.com/Whisky-App/Whisky/releases" rel="noreferrer noopener">
-                    <div class="bg-amber-500 px-4 py-2 rounded-2xl sm:rounded-3xl transition duration-300 hover:ease-in-out hover:bg-red-500 hover:drop-shadow-xl hover:scale-105">
-                        <p class="text-center text-black text-sm md:text-lg font-bold">{ t("splash.all-releases") }</p>
+                        <p class="text-center text-black text-sm md:text-lg font-bold">Buy CrossOver</p>
                     </div>
                 </a>
             </div>
@@ -42,7 +37,7 @@ const t = useTranslations(Astro.currentLocale ?? 'en');
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open("GET", "https://data.getwhisky.app/appcast.xml", false);
     xmlHttp.send(null);
-    
+
     let parser = new Parser();
     let feed = await parser.parseString(xmlHttp.responseText);
     let downloadURL = feed.items.at(0)?.enclosure?.url ?? "https://github.com/Whisky-App/Whisky/releases/latest/download/Whisky.zip";
